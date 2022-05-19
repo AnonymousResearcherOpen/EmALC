@@ -1,0 +1,40 @@
+1|http://www.benchmark.org/family#Brother http://www.benchmark.org/family#Parent 
+1|http://www.benchmark.org/family#Brother http://www.benchmark.org/family#Grandchild 
+1|http://www.benchmark.org/family#Granddaughter http://www.w3.org/2002/07/owl#Thing 
+1|http://www.benchmark.org/family#Grandfather http://www.benchmark.org/family#Grandparent 
+1|http://www.benchmark.org/family#Grandchild http://www.benchmark.org/family#Son 
+1|http://www.benchmark.org/family#Male http://www.benchmark.org/family#Son 
+1|http://www.benchmark.org/family#Grandchild http://www.w3.org/2002/07/owl#Thing 
+1|http://www.benchmark.org/family#Grandparent http://www.benchmark.org/family#Mother 
+1|http://www.benchmark.org/family#Parent http://www.w3.org/2002/07/owl#Thing 
+1|http://www.benchmark.org/family#Grandmother http://www.benchmark.org/family#PersonWithASibling 
+1|http://www.benchmark.org/family#Grandfather http://www.benchmark.org/family#Grandson 
+1|http://www.benchmark.org/family#Brother http://www.w3.org/2002/07/owl#Thing 
+1|http://www.benchmark.org/family#Person http://www.benchmark.org/family#Son 
+1|http://www.benchmark.org/family#Granddaughter http://www.benchmark.org/family#Person 
+1|http://www.benchmark.org/family#Brother http://www.benchmark.org/family#Grandchild 
+1|http://www.benchmark.org/family#Grandchild http://www.benchmark.org/family#Granddaughter 
+1|http://www.benchmark.org/family#Grandmother http://www.benchmark.org/family#PersonWithASibling 
+1|http://www.benchmark.org/family#Grandmother http://www.benchmark.org/family#Grandparent 
+1|http://www.benchmark.org/family#Daughter http://www.benchmark.org/family#PersonWithASibling 
+1|http://www.benchmark.org/family#Grandfather http://www.benchmark.org/family#Person 
+2|http://www.benchmark.org/family#Granddaughter http://www.benchmark.org/family#hasChild http://www.benchmark.org/family#Child 
+2|http://www.benchmark.org/family#Brother http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Sister 
+2|http://www.benchmark.org/family#Sister http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Granddaughter 
+2|http://www.benchmark.org/family#Grandchild http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Mother 
+2|http://www.benchmark.org/family#Grandparent http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Brother 
+2|http://www.w3.org/2002/07/owl#Thing http://www.benchmark.org/family#hasChild http://www.benchmark.org/family#Son 
+2|http://www.benchmark.org/family#Brother http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#PersonWithASibling 
+2|http://www.benchmark.org/family#Father http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Person 
+2|http://www.benchmark.org/family#Daughter http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Grandfather 
+2|http://www.benchmark.org/family#Father http://www.benchmark.org/family#hasChild http://www.benchmark.org/family#Daughter 
+2|http://www.benchmark.org/family#Sister http://www.benchmark.org/family#hasChild http://www.benchmark.org/family#Child 
+2|http://www.benchmark.org/family#Mother http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Brother 
+2|http://www.benchmark.org/family#PersonWithASibling http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Person 
+2|http://www.benchmark.org/family#PersonWithASibling http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Male 
+2|http://www.benchmark.org/family#Child http://www.benchmark.org/family#hasChild http://www.benchmark.org/family#Grandchild 
+2|http://www.benchmark.org/family#Parent http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Brother 
+2|http://www.benchmark.org/family#Person http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Male 
+2|http://www.benchmark.org/family#Grandfather http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Granddaughter 
+2|http://www.benchmark.org/family#Father http://www.benchmark.org/family#hasSibling http://www.benchmark.org/family#Granddaughter 
+2|http://www.benchmark.org/family#Parent http://www.benchmark.org/family#hasParent http://www.benchmark.org/family#Female 

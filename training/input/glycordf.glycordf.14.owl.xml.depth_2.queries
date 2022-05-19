@@ -1,0 +1,40 @@
+1|http://purl.jp/bio/12/glyco/glycan#core_modification_type http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_type http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_database http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#ms_fragment_type http://purl.jp/bio/12/glyco/glycan#ms_property 
+1|http://purl.jp/bio/12/glyco/glycan#adduct_ion http://purl.jp/bio/12/glyco/glycan#ms_property 
+1|http://purl.jp/bio/12/glyco/glycan#sample_preparation http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#anomer http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#compound 
+1|http://purl.jp/bio/12/glyco/glycan#chemical_release http://purl.jp/bio/12/glyco/glycan#sample_preparation 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#configuration 
+1|http://purl.jp/bio/12/glyco/glycan#enzymatic_release http://purl.jp/bio/12/glyco/glycan#glycan_release 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#configuration 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#absolute_configuration http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+1|http://purl.jp/bio/12/glyco/glycan#relative_configuration http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#ms_property http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#relative_configuration 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#ring_type 
+1|http://purl.jp/bio/12/glyco/glycan#role http://www.w3.org/2002/07/owl#Thing 
+1|http://purl.jp/bio/12/glyco/glycan#ms_property http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+2|http://www.w3.org/2002/07/owl#Thing http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#absolute_configuration 
+2|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#absolute_configuration 
+2|http://purl.jp/bio/12/glyco/glycan#configuration http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 
+2|http://purl.jp/bio/12/glyco/glycan#compound http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#absolute_configuration 
+2|http://purl.jp/bio/12/glyco/glycan#compound http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://www.w3.org/2002/07/owl#Thing 
+2|http://www.w3.org/2002/07/owl#Thing http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 
+2|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://purl.jp/bio/12/glyco/glycan#monosaccharide_property 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#amino_acid http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration http://www.w3.org/2002/07/owl#Thing 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database http://purl.jp/bio/12/glyco/glycan#has_category http://purl.jp/bio/12/glyco/glycan#glycan_database_category 

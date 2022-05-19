@@ -1,0 +1,4 @@
+http://www.benchmark.org/family#married
+http://www.benchmark.org/family#hasSibling
+http://www.benchmark.org/family#hasParent
+http://www.benchmark.org/family#hasChild

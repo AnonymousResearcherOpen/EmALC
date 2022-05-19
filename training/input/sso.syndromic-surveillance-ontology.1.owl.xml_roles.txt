@@ -1,0 +1,11 @@
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasSynonymousConcepts
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasExternalCodings
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasExactConcept
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasSensitiveDefinition
+http://surveillance.mcgill.ca/sso/syndromes.owl#isExactConceptFor
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasSpecificDefinition
+http://surveillance.mcgill.ca/sso/syndromes.owl#isInSensitiveDefinitionOf
+http://surveillance.mcgill.ca/sso/syndromes.owl#hasRelatedConcepts
+http://surveillance.mcgill.ca/sso/syndromes.owl#isSynonymousTo
+http://surveillance.mcgill.ca/sso/syndromes.owl#isRelatedTo
+http://surveillance.mcgill.ca/sso/syndromes.owl#isInSpecificDefinitionOf

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b2257c8-4d0d-4e77-9eb0-a4f10042c3f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="29NLq6hY5rUAix7YCn0EPCPXa6u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/jarlib/org.semanticweb.hermit-1.4.5.519.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3634882" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b2257c8-4d0d-4e77-9eb0-a4f10042c3f7" name="Default Changelist" comment="" />
+      <created>1652948783784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652948783784</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="252" key="#Project_Structure" timestamp="1652948909800">
+      <screen x="0" y="0" width="2194" height="1186" />
+    </state>
+    <state x="690" y="252" key="#Project_Structure/0.0.2194.1186@0.0.2194.1186" timestamp="1652948909800" />
+    <state x="775" y="334" key="FileChooserDialogImpl" timestamp="1652956696749">
+      <screen x="0" y="0" width="2194" height="1186" />
+    </state>
+    <state x="775" y="334" key="FileChooserDialogImpl/0.0.2194.1186@0.0.2194.1186" timestamp="1652956696749" />
+    <state x="578" y="168" key="SettingsEditor" timestamp="1652956701522">
+      <screen x="0" y="0" width="2194" height="1186" />
+    </state>
+    <state x="578" y="168" key="SettingsEditor/0.0.2194.1186@0.0.2194.1186" timestamp="1652956701522" />
+  </component>
+</project>

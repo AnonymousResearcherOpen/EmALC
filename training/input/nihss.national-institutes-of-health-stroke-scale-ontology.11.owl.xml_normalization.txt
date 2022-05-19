@@ -1,0 +1,53 @@
+1|http://mre.zcu.cz/ontology/nihss.owl#ExtinctionAndInattention	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#motorLegRight	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#questions	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#facialPalsy	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#MotorLegRight	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#MotorArmRight	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#FacialPalsy	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#timepoint	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Commands	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#motorLegLeft	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Interval	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#consciousness	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Consciousness	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#visual	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Sensory	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#bestGaze	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#bestLanguage	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#motorArmLeft	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Instruction	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#sensory	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#limbAtaxia	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Dysarthria	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#dysarthria	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#extinctionAndInattention	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#MotorLegLeft	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Questions	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#LimbAtaxia	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#MotorArmLeft	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#commands	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#Visual	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#BestLanguage	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+6|http://mre.zcu.cz/ontology/nihss.owl#motorArmRight	http://www.w3.org/2002/07/owl#Thing	http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale|0 0 
+1|http://mre.zcu.cz/ontology/nihss.owl#BestGaze	http://mre.zcu.cz/ontology/nihss.owl#Instruction|0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#BestGaze	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#MotorArmRight	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Consciousness	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Interval	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Commands	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://mre.zcu.cz/ontology/nihss.owl#MotorLegLeft	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#NIHStrokeScale	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://mre.zcu.cz/ontology/nihss.owl#ExtinctionAndInattention	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Sensory	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#FacialPalsy	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://mre.zcu.cz/ontology/nihss.owl#Visual	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Dysarthria	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#MotorLegRight	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Instruction	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#MotorArmLeft	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#BestLanguage	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#Questions	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://mre.zcu.cz/ontology/nihss.owl#LimbAtaxia	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 

@@ -1,0 +1,119 @@
+4|http://www.benchmark.org/family#Child	http://www.benchmark.org/family#hasParent	http://www.benchmark.org/family#Parent|0 0 
+1|http://www.benchmark.org/family#PersonWithASibling	http://www.benchmark.org/family#Person|0 0 
+6|http://www.benchmark.org/family#hasParent	http://www.w3.org/2002/07/owl#Thing	http://www.benchmark.org/family#Child|0 0 
+6|http://www.benchmark.org/family#hasParent	http://www.benchmark.org/family#Parent	http://www.benchmark.org/family#Child|0 0 
+6|http://www.benchmark.org/family#hasChild	http://www.benchmark.org/family#Child	http://www.benchmark.org/family#Parent|0 0 
+4|http://www.benchmark.org/family#Grandchild	http://www.benchmark.org/family#hasParent	definer_2|0 0 
+1|definer_1	http://www.benchmark.org/family#Parent|0 0 
+1|http://www.benchmark.org/family#Grandson	http://www.benchmark.org/family#Son|0 0 
+1|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Male|0 0 
+1|http://www.benchmark.org/family#Grandchild	http://www.benchmark.org/family#Child|0 0 
+1|http://www.benchmark.org/family#Sister	http://www.benchmark.org/family#Female|0 0 
+1|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Person|0 0 
+1|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Grandparent|0 0 
+1|http://www.benchmark.org/family#Granddaughter	http://www.benchmark.org/family#Female|0 0 
+1|http://www.benchmark.org/family#Grandson	http://www.benchmark.org/family#Male|0 0 
+1|http://www.benchmark.org/family#Grandparent	http://www.benchmark.org/family#Parent|0 0 
+2|http://www.benchmark.org/family#Child	http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Daughter|0 0 0 
+1|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 
+1|http://www.benchmark.org/family#Child	http://www.benchmark.org/family#Person|0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#PersonWithASibling	http://www.benchmark.org/family#Brother|0 0 0 
+1|http://www.benchmark.org/family#Person	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.benchmark.org/family#married	http://www.w3.org/2002/07/owl#Thing	http://www.benchmark.org/family#Person|0 0 
+1|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Father|0 0 
+6|http://www.benchmark.org/family#hasParent	definer_2	http://www.benchmark.org/family#Grandchild|0 0 
+6|http://www.benchmark.org/family#hasChild	definer_1	http://www.benchmark.org/family#Grandparent|0 0 
+1|http://www.benchmark.org/family#Daughter	http://www.benchmark.org/family#Female|0 0 
+1|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Person|0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Grandchild	http://www.benchmark.org/family#Granddaughter|0 0 0 
+4|http://www.benchmark.org/family#Grandparent	http://www.benchmark.org/family#hasChild	definer_1|0 0 
+1|http://www.benchmark.org/family#Granddaughter	http://www.benchmark.org/family#Daughter|0 0 
+2|http://www.benchmark.org/family#Child	http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Son|0 0 0 
+1|http://www.benchmark.org/family#Brother	http://www.benchmark.org/family#PersonWithASibling|0 0 
+1|http://www.benchmark.org/family#Granddaughter	http://www.benchmark.org/family#Grandchild|0 0 
+6|http://www.benchmark.org/family#hasChild	http://www.benchmark.org/family#Grandchild	definer_1|0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Parent	http://www.benchmark.org/family#Mother|0 0 0 
+6|http://www.benchmark.org/family#hasSibling	http://www.w3.org/2002/07/owl#Thing	http://www.benchmark.org/family#PersonWithASibling|0 0 
+6|http://www.benchmark.org/family#hasChild	http://www.w3.org/2002/07/owl#Thing	http://www.benchmark.org/family#Parent|0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#PersonWithASibling	http://www.benchmark.org/family#Sister|0 0 0 
+4|http://www.benchmark.org/family#Parent	http://www.benchmark.org/family#hasChild	http://www.benchmark.org/family#Child|0 0 
+1|http://www.benchmark.org/family#Mother	http://www.benchmark.org/family#Parent|0 0 
+1|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Child|0 0 
+1|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Parent|0 0 
+1|http://www.benchmark.org/family#Mother	http://www.benchmark.org/family#Female|0 0 
+1|http://www.benchmark.org/family#Parent	http://www.benchmark.org/family#Person|0 0 
+1|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Female|0 0 
+1|definer_2	http://www.benchmark.org/family#Child|0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Male	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandparent	http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Grandfather|0 0 0 
+1|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Mother|0 0 
+1|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Male|0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Grandparent	http://www.benchmark.org/family#Grandmother|0 0 0 
+1|http://www.benchmark.org/family#Brother	http://www.benchmark.org/family#Male|0 0 
+1|http://www.benchmark.org/family#Daughter	http://www.benchmark.org/family#Child|0 0 
+4|definer_1	http://www.benchmark.org/family#hasChild	http://www.benchmark.org/family#Grandchild|0 0 
+2|http://www.benchmark.org/family#Grandchild	http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Grandson|0 0 0 
+1|http://www.benchmark.org/family#Grandson	http://www.benchmark.org/family#Grandchild|0 0 
+1|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Grandparent|0 0 
+6|http://www.benchmark.org/family#hasParent	http://www.benchmark.org/family#Grandparent	definer_2|0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Parent	http://www.benchmark.org/family#Father|0 0 0 
+1|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Male|0 0 
+4|definer_2	http://www.benchmark.org/family#hasParent	http://www.benchmark.org/family#Grandparent|0 0 
+1|http://www.benchmark.org/family#Sister	http://www.benchmark.org/family#PersonWithASibling|0 0 
+2|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Mother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandparent	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Parent	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Daughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Daughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandmother	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Granddaughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Mother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Granddaughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Child	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Grandmother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Mother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Daughter	http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Grandmother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Person	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Daughter	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.benchmark.org/family#Female	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Daughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Female	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_1	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Father	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Granddaughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Female	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Female	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Granddaughter	http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#PersonWithASibling	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Father	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Granddaughter	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Mother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Male	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandchild	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Brother	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Mother	http://www.benchmark.org/family#Brother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Female	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandson	http://www.benchmark.org/family#Sister	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandfather	http://www.benchmark.org/family#Grandmother	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Female	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Granddaughter	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Father	http://www.benchmark.org/family#Daughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Grandmother	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Son	http://www.benchmark.org/family#Granddaughter	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Mother	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_2	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Daughter	http://www.benchmark.org/family#Grandson	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.benchmark.org/family#Mother	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 

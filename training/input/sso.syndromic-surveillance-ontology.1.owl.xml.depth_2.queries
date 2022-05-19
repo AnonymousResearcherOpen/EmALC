@@ -1,0 +1,40 @@
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.w3.org/2002/07/owl#Thing 
+1|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSynonymousConcepts http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isExactConceptFor http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasRelatedConcepts http://www.w3.org/2002/07/owl#Thing 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasExternalCodings http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isExactConceptFor http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSensitiveDefinition http://www.w3.org/2002/07/owl#Thing 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasRelatedConcepts http://www.w3.org/2002/07/owl#Thing 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSynonymousConcepts http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasExactConcept http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSpecificDefinition http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isInSpecificDefinitionOf http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isInSpecificDefinitionOf http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSynonymousConcepts http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isSynonymousTo http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasSynonymousConcepts http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasExternalCodings http://www.w3.org/2002/07/owl#Thing 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#hasExternalCodings http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#CodingMetaClass 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConditionMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isInSensitiveDefinitionOf http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass 
+2|http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#ConceptMetaClass http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isExactConceptFor http://www.w3.org/2002/07/owl#Thing 
+2|http://www.w3.org/2002/07/owl#Thing http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#isInSensitiveDefinitionOf http://www.medicine.mcgill.ca/epidemiology/buckeridge/syndromes.owl#SyndromeMetaClass 

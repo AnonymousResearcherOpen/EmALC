@@ -1,0 +1,547 @@
+6|http://purl.jp/bio/12/glyco/glycan#has_substrate	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#image	http://xmlns.com/foaf/0.1/Image|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lc_property	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#protein	http://purl.jp/bio/12/glyco/glycan#aglycon|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_ion	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#adduct|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycosequence	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#motif|0 0 
+1|definer_5	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|definer_8	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+1|definer_15	definer_2|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_third_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_attached_glycan	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_lc_gradient	http://www.w3.org/2002/07/owl#Thing	definer_21|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_alias	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#monosaccharide|0 0 
+2|definer_4	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|definer_15	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_category	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycan_database|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#chemical_release	http://purl.jp/bio/12/glyco/glycan#glycan_release|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#peptide	http://purl.jp/bio/12/glyco/glycan#aglycon|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_binding	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+1|definer_16	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#repeat_attribute	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_motif	http://purl.jp/bio/12/glyco/glycan#motif|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_residue	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#subspectrum|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycoconjugate_sequence	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#motif|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_component	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|definer_10	definer_2|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_ionisation_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#mass_spectrometry_device|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#aglycon	definer_7|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#symbol_format	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_enzyme	http://www.w3.org/2002/07/owl#Thing	definer_11|0 0 
+1|definer_10	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#sample_preparation	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	definer_7|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_absolute_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#configuration|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_release	http://purl.jp/bio/12/glyco/glycan#sample_preparation|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#substituent	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|definer_11	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#saccharide	definer_2|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_ms	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_ms|0 0 
+3|definer_22	http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#glycoprotein|0 0 0 
+3|definer_15	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 0 
+3|definer_21	http://purl.jp/bio/12/glyco/glycan#evidence_lc	http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#sulfotransferase_reaction	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#core_modification	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#mass_spectrometry_device	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_default_linkage_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#substituent_type|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_fragmented_spectrum	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#mass_spectrum|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#saccharide	definer_7|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lc_chromatogram	http://purl.jp/bio/12/glyco/glycan#lc_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#carbohydrate_format	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#sequence	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_binding_antibody	http://purl.jp/bio/12/glyco/glycan#evidence_binding|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#source_modeled	http://purl.jp/bio/12/glyco/glycan#source|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#aglycon	definer_6|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid	definer_2|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lc_column	http://purl.jp/bio/12/glyco/glycan#lc_property|0 0 
+3|definer_10	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_column	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#captured_by	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_binding|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property	http://www.w3.org/2002/07/owl#Thing|0 0 
+3|definer_14	definer_13	http://purl.jp/bio/12/glyco/glycan#source|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#contained_in	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycan_motif|0 0 
+3|definer_12	http://purl.jp/bio/12/glyco/glycan#evidence_lc	http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycosequence	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|definer_19	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|definer_3	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_peptide	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_IGOT|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_resource_entry	http://www.w3.org/2002/07/owl#Thing	definer_8|0 0 
+1|http://xmlns.com/foaf/0.1/Image	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_taxon	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_natural|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_uniprot_accession	http://www.w3.org/2002/07/owl#Thing	definer_19|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_adduct	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#ms_annotation|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+2|definer_7	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://purl.jp/bio/12/glyco/glycan#subspectrum	http://purl.jp/bio/12/glyco/glycan#has_signal	http://purl.jp/bio/12/glyco/glycan#signal|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_reference_standard	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_nmr|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_default_linkage_type2	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#substituent_type|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#modification_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycosylated_AA|0 0 
+3|definer_16	http://purl.jp/bio/12/glyco/glycan#evidence_nmr	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#source_synthetic	http://purl.jp/bio/12/glyco/glycan#source|0 0 
+1|definer_14	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#chemical_repeat_unit	http://purl.jp/bio/12/glyco/glycan#motif|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_nmr	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_binding_lectin	http://purl.jp/bio/12/glyco/glycan#evidence_binding|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#ms_property	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_IGOT	http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms|0 0 
+1|definer_17	definer_7|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#ms_annotation	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+1|definer_12	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_first_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#in_carbohydrate_format	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#sequence|0 0 
+1|definer_22	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_second_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#in_glycan_database	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#resource_entry|0 0 
+1|definer_17	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide_notation_scheme	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_evidence	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#referenced_compound|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lipid	http://purl.jp/bio/12/glyco/glycan#aglycon|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_lc	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_solvent	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#solvent_part|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_exoglycosidase_chromatogram	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#lc_chromatogram|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycosylated_AA	http://www.w3.org/2002/07/owl#Thing	definer_22|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	definer_6|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#protein	definer_5|0 0 
+3|definer_11	http://purl.jp/bio/12/glyco/glycan#lc_digest_chromatogram	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#gradient	http://purl.jp/bio/12/glyco/glycan#lc_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#compound	definer_13|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#configuration	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_solvent_part	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_nmr|0 0 
+2|definer_6	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#anomer	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_aglycon	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_linkage_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#substituent_linkage|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lipid	definer_3|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#source	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#solvent_part	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#enzyme	http://purl.jp/bio/12/glyco/glycan#role|0 0 
+2|definer_5	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_mass_spectrum	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_ms|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoconjugate_sequence	http://purl.jp/bio/12/glyco/glycan#sequence|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#catalyzed_by	http://www.w3.org/2002/07/owl#Thing	definer_10|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_product	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_mass_spectrometry_peak	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#mass_spectrum|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_core_modification_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#core_modification|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#referenced_compound	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycosequence	http://purl.jp/bio/12/glyco/glycan#sequence|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#hybrid_with	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_natural|0 0 
+1|definer_1	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#published_in	http://www.w3.org/2002/07/owl#Thing	definer_23|0 0 
+3|definer_20	http://purl.jp/bio/12/glyco/glycan#evidence_lc	http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_ring_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#protein	definer_4|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#msn_spectrum	http://purl.jp/bio/12/glyco/glycan#mass_spectrum|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#hosted_by	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_natural|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_lc_chromatogram_peak	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#lc_chromatogram|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_amino_acid_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#glycosylated_AA|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_repeat_attribute	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#polymerization_degree|0 0 
+1|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_exoglycosidase_treatment	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#lc_digest_chromatogram|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#role	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#relative_configuration	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|definer_20	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_affinity_to	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|definer_15	definer_7|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_anomer	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_lc_chromatogram	http://www.w3.org/2002/07/owl#Thing	definer_20|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_monosaccharide_notation_scheme	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#monosaccharide_alias|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#biological_repeat_unit	http://purl.jp/bio/12/glyco/glycan#motif|0 0 
+1|definer_6	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_fragment_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#ms_annotation|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#reaction	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#resource_entry	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#profile_spectrum	http://purl.jp/bio/12/glyco/glycan#mass_spectrum|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_subspectrum	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_nmr|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_binder	http://purl.jp/bio/12/glyco/glycan#role|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_software	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_modeled|0 0 
+2|definer_3	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#citation	definer_13|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_ms	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#polymerization_degree	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#source_natural	http://purl.jp/bio/12/glyco/glycan#source|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms	http://purl.jp/bio/12/glyco/glycan#evidence_ms|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_polymerization_degree	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#polysaccharide|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#signal	http://purl.jp/bio/12/glyco/glycan#nmr_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_destination_organism	http://www.w3.org/2002/07/owl#Thing	definer_9|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_mass_analyzer	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#mass_spectrometry_device|0 0 
+1|definer_18	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|definer_4	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lc_digest_chromatogram	http://purl.jp/bio/12/glyco/glycan#lc_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#linkage_type	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycan	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#referenced_compound|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#ms_peak	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_image	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+1|definer_22	definer_18|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#antibody	http://purl.jp/bio/12/glyco/glycan#glycan_binder|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_motif	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_buffer	http://www.w3.org/2002/07/owl#Thing	definer_16|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#is_from_source	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#referenced_compound|0 0 
+3|definer_8	http://purl.jp/bio/12/glyco/glycan#compound	http://purl.jp/bio/12/glyco/glycan#referenced_compound|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_substituent_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#substituent|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#absolute_configuration	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#solvent	http://purl.jp/bio/12/glyco/glycan#role|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#aglycon	definer_1|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoprotein	definer_18|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_glycoconjugate_sequence	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+4|http://purl.jp/bio/12/glyco/glycan#component	http://purl.jp/bio/12/glyco/glycan#has_monosaccharide	http://purl.jp/bio/12/glyco/glycan#monosaccharide|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_relative_configuration	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#configuration|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#enzymatic_release	http://purl.jp/bio/12/glyco/glycan#glycan_release|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#degraded_by	http://www.w3.org/2002/07/owl#Thing	definer_17|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#core_modification_type	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#synthetic_type	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|definer_1	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#source_sample	http://purl.jp/bio/12/glyco/glycan#source|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#nmr_property	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#used_molecule	http://www.w3.org/2002/07/owl#Thing	definer_12|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#adduct	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#component	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	definer_2|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#peptide	definer_4|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#motif	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#monosaccharide_alias	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#neutral_loss	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_reference	http://www.w3.org/2002/07/owl#Thing	definer_14|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_type	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|definer_7	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_monosaccharide	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#component|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#ring_type	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#subspectrum	http://purl.jp/bio/12/glyco/glycan#nmr_property|0 0 
+1|definer_17	definer_2|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#substituent_linkage	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid	definer_6|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_external_substituent	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#monosaccharide_alias|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#buffer	http://purl.jp/bio/12/glyco/glycan#role|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#adduct_ion	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_basetype	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#monosaccharide|0 0 
+2|definer_2	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_precursor_peak	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_ms|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lc_peak	http://purl.jp/bio/12/glyco/glycan#lc_property|0 0 
+3|definer_9	http://purl.jp/bio/12/glyco/glycan#source_modeled	http://purl.jp/bio/12/glyco/glycan#source_synthetic|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#ms_fragment_type	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#aglycon	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lectin	http://purl.jp/bio/12/glyco/glycan#glycan_binder|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_ms_annotation	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#ms_peak|0 0 
+1|definer_2	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_epitope	http://purl.jp/bio/12/glyco/glycan#glycan_motif|0 0 
+1|definer_9	http://purl.jp/bio/12/glyco/glycan#source|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_synthesis_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_synthetic|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#peptide	definer_3|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_epitope	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_substitution	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#monosaccharide|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_symbol_format	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#image|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#substituent_type	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_database	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycosyl_hydrolase_reaction	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_signal	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#subspectrum|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycosyltransferase_reaction	http://purl.jp/bio/12/glyco/glycan#reaction|0 0 
+1|definer_13	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#basetype	http://purl.jp/bio/12/glyco/glycan#monosaccharide_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#compound|0 0 
+3|definer_23	http://purl.jp/bio/12/glyco/glycan#evidence	http://purl.jp/bio/12/glyco/glycan#referenced_compound|0 0 0 
+1|definer_21	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+3|definer_17	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#saccharide|0 0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_sample_type	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#source_natural|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence_ce	http://purl.jp/bio/12/glyco/glycan#evidence|0 0 
+1|definer_23	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#saccharide	definer_1|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_unassigned_signal	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#evidence_nmr|0 0 
+3|definer_19	definer_18	http://purl.jp/bio/12/glyco/glycan#protein|0 0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycoside	http://purl.jp/bio/12/glyco/glycan#glycoconjugate|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#evidence	definer_13|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_ms_model	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#mass_spectrometry_device|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#synthesized_by	http://www.w3.org/2002/07/owl#Thing	definer_15|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_neutral_loss	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#ms_annotation|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#mass_spectrum	http://purl.jp/bio/12/glyco/glycan#ms_property|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#lipid	definer_5|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_lc_annotation	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#lc_peak|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycopeptide	definer_18|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_core_modification	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#basetype|0 0 
+6|http://purl.jp/bio/12/glyco/glycan#has_substituent_linkage	http://www.w3.org/2002/07/owl#Thing	http://purl.jp/bio/12/glyco/glycan#substituent|0 0 
+1|definer_10	definer_7|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#glycan_database_category	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://purl.jp/bio/12/glyco/glycan#amino_acid	definer_1|0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosyltransferase_reaction	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_lc_ms	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	definer_1	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#protein	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_release	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoside	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_6	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#chemical_repeat_unit	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#referenced_compound	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_ms	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#core_modification	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#compound	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	definer_6	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_3	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#signal	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_19	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_12	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#synthetic_type	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#mass_spectrometry_device	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoside	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#neutral_loss	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#ring_type	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#enzyme	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#lectin	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#source_natural	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#lc_chromatogram	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_18	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_11	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_notation_scheme	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#antibody	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#linkage_type	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	definer_6	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_1	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#sequence	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate_sequence	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#substituent_linkage	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_8	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_lc	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	definer_1	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#substituent_type	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_binder	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#basetype	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	definer_1	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#substituent	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_binding_antibody	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_binding	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#ms_fragment_type	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#subspectrum	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#source_sample	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#chemical_release	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#buffer	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_15	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_epitope	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#ms_peak	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#biological_repeat_unit	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	definer_6	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_IGOT	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#resource_entry	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#evidence_nmr	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#nmr_property	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_2	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#citation	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#lc_digest_chromatogram	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#profile_spectrum	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosyl_hydrolase_reaction	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#source	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://xmlns.com/foaf/0.1/Image	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#ms_annotation	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	definer_15	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	definer_9	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#configuration	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_20	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#anomer	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	definer_14	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_1	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_alias	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#sample_preparation	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#relative_configuration	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	definer_6	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_7	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#core_modification_type	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_motif	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#ms_property	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_ce	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide_property	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_6	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#image	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_5	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#evidence_binding_lectin	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#sulfotransferase_reaction	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#aglycon	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#repeat_attribute	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_4	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_2	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#reaction	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#role	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	definer_22	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_2	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_23	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#aglycon	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#lc_column	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#mass_spectrum	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#solvent	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_1	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#glycan_database	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_15	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#absolute_configuration	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#aglycon	definer_15	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#lipid	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#saccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_2	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosequence	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#saccharide	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#source_modeled	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#lc_property	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#adduct	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#enzymatic_release	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#lipid	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#peptide	definer_15	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_21	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoside	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#gradient	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#glycoside	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#symbol_format	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycolipid	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#carbohydrate_format	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#solvent_part	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_15	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#cyclic_glycan	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#component	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_16	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	http://purl.jp/bio/12/glyco/glycan#O-glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	definer_6	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#adduct_ion	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycopeptide	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycan_database_category	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_17	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#aglycon	http://purl.jp/bio/12/glyco/glycan#amino_acid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#lc_peak	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#O-glycan	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_13	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#msn_spectrum	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_22	definer_1	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#motif	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycosylated_AA	http://purl.jp/bio/12/glyco/glycan#monosaccharide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://purl.jp/bio/12/glyco/glycan#evidence_type	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#glycoconjugate	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#source_synthetic	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polymerization_degree	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|definer_10	http://purl.jp/bio/12/glyco/glycan#aglycon	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#glycolipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#lipid	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#N-glycan	http://purl.jp/bio/12/glyco/glycan#protein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#polysaccharide	http://purl.jp/bio/12/glyco/glycan#peptide	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://purl.jp/bio/12/glyco/glycan#O-glycan	http://purl.jp/bio/12/glyco/glycan#glycoprotein	http://www.w3.org/2002/07/owl#Nothing|0 0 0 

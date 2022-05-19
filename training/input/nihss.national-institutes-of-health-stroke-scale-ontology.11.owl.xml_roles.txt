@@ -1,0 +1,16 @@
+http://mre.zcu.cz/ontology/nihss.owl#timepoint
+http://mre.zcu.cz/ontology/nihss.owl#questions
+http://mre.zcu.cz/ontology/nihss.owl#bestLanguage
+http://mre.zcu.cz/ontology/nihss.owl#sensory
+http://mre.zcu.cz/ontology/nihss.owl#dysarthria
+http://mre.zcu.cz/ontology/nihss.owl#facialPalsy
+http://mre.zcu.cz/ontology/nihss.owl#motorArmRight
+http://mre.zcu.cz/ontology/nihss.owl#visual
+http://mre.zcu.cz/ontology/nihss.owl#commands
+http://mre.zcu.cz/ontology/nihss.owl#limbAtaxia
+http://mre.zcu.cz/ontology/nihss.owl#motorLegLeft
+http://mre.zcu.cz/ontology/nihss.owl#consciousness
+http://mre.zcu.cz/ontology/nihss.owl#extinctionAndInattention
+http://mre.zcu.cz/ontology/nihss.owl#motorLegRight
+http://mre.zcu.cz/ontology/nihss.owl#motorArmLeft
+http://mre.zcu.cz/ontology/nihss.owl#bestGaze
