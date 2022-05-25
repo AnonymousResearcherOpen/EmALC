@@ -23,14 +23,14 @@ The output of preprocessing is the files in 'training/input':
 - 'abox.txt': the abox assertions.
 - 'subclassaixoms.txt': the GCI axioms.
 
-Note: The source code of 'Normalization.jar' and 'CQGenerator.jar' is in [normalization](https://github.com/AnonymousResearcherOpen/DF-ALC/normalization/).If you want to repackage the jar based on our source code, remember to delete all dependencies named as 'owlapi-xxx.jar' in the artifact, while only remain the 'owlapi-distribution-5.1.3.jar'. 
+Note: The source code of 'Normalization.jar' and 'CQGenerator.jar' is in [normalization](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/normalization).If you want to repackage the jar based on our source code, remember to delete all dependencies named as 'owlapi-xxx.jar' in the artifact, while only remain the 'owlapi-distribution-5.1.3.jar'. 
 
 ### Training
 
-The training and evaluation is in [training](https://github.com/AnonymousResearcherOpen/DF-ALC/training/), to train DF-ALC, run:
+The training and evaluation is in [training](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training), to train DF-ALC, run:
 `python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu`
 
-For evaluation, we randomly masked the ABox of the input ontology as the initial output of the neural models, so can evaluate the performance of DF-ALC when meeting with different distributions. The generation of the masked ABox (imitation of the output of a neural model) is in [Evaluation.MaskABox](https://github.com/AnonymousResearcherOpen/DF-ALC/training/Evaluation.py), the masked ABox and the origional ABox are saved in '--save_path'. And the mask rate is designated by '--mask_rate'. While '--alpha' is the threshold of truth value for the transformation between fuzzy ALC and crisp ALC. And the masked value is in the range of (1-alpha,alpha). The model also support using GPU, with '--device_name cuda:0'.
+For evaluation, we randomly masked the ABox of the input ontology as the initial output of the neural models, so can evaluate the performance of DF-ALC when meeting with different distributions. The generation of the masked ABox (imitation of the output of a neural model) is in [Evaluation.MaskABox](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/Evaluation.py), the masked ABox and the origional ABox are saved in '--save_path'. And the mask rate is designated by '--mask_rate'. While '--alpha' is the threshold of truth value for the transformation between fuzzy ALC and crisp ALC. And the masked value is in the range of (1-alpha,alpha). The model also support using GPU, with '--device_name cuda:0'.
 
 For comparison with the Logical Tensor Network, run:
 `python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu --model_name LTN`
@@ -38,14 +38,14 @@ For comparison with the Logical Tensor Network, run:
 
 ### Evaluation
 
-The revised results of D-ALC and LTN are evaluated under the semantics of fuzzy first order logic, with codes in [training/evaluation](https://github.com/AnonymousResearcherOpen/DF-ALC/training/evaluation/). To compute the successful rate, run [run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/training/evaluation/run.ipynb)
+The revised results of D-ALC and LTN are evaluated under the semantics of fuzzy first order logic, with codes in [training/evaluation](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/). To compute the successful rate, run [run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/run.ipynb)
 
 To do the conjuncive query answering (CQA) evaluation, firstly,
 generate the conjunctive queries and answers:
 
 `java -jar CQGenerator.jar training/ontologies training/input`
 
-Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/training/CQAnswering_evaluation.ipynb) to generate the CQA evaluation results.
+Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/CQAnswering_evaluation.ipynb) to generate the CQA evaluation results.
 
 ## Dependencies
 > JDK 1.8
@@ -59,6 +59,6 @@ Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOp
 > pyparsing 3.0.6
 > loguru 0.6.0
 ## Results
-Results of DF-ALC and LTN are output in [output](https://github.com/AnonymousResearcherOpen/DF-ALC/training/output/), [product_output](https://github.com/AnonymousResearcherOpen/DF-ALC/training/product_output/), respectively. We zipped the training results in [results](https://drive.google.com/drive/folders/1ob0RVM6GwAQvgew9yZTrCfNrfvbWFKRb?usp=sharing).
+Results of DF-ALC and LTN are output in [output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/output/), [product_output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/product_output/), respectively. We zipped the training results in [results](https://drive.google.com/drive/folders/1ob0RVM6GwAQvgew9yZTrCfNrfvbWFKRb?usp=sharing).
 
 
