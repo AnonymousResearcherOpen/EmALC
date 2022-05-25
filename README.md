@@ -21,7 +21,7 @@ The output of preprocessing is the files in 'training/input':
 - 'concepts.txt', 'roles.txt', 'individuals.txt': the concept names(/role names/individual names) set.
 - 'normalization.txt': the nomalized TBox axioms.
 - 'abox.txt': the abox assertions.
-- 'subclassaixoms.txt': the GCI axioms.
+- 'subclassaixoms.txt': the original TBox axioms.
 
 Note: The source code of 'Normalization.jar' and 'CQGenerator.jar' is in [normalization](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/normalization). If you want to repackage the jar based on our source code, remember to delete all dependencies named 'owlapi-xxx.jar' in the artifact, while only remain the 'owlapi-distribution-5.1.3.jar'. 
 
