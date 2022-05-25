@@ -32,7 +32,7 @@ import java.util.stream.Collectors;
  * @author Xuan Wu
  */
 public class normalizeALC {
-    public static String dirPath = "training\\ontologies\\";
+    public static String dirPath = "D:\\Tasks\\DF-ALC\\ontologies\\";
     public static String targetPath = "training\\input\\";
     public static String annotationPath;
     public static String axiomPath;
@@ -129,16 +129,12 @@ public class normalizeALC {
 
     public static void save_normalization(File ontology_file, List<Formula> norm_list) throws  Exception{
         FileWriter fw = new FileWriter(new File(targetPath+ontology_file.getName()+"_normalization.txt"));
-//        System.out.println(norm_list);
         System.out.println("----------------------------");
         List<Formula> right_sub; List<Formula> left_sub;
         Set<String> all_formula = new HashSet<>();
         for(Formula formula: norm_list){
-//            System.out.println(formula.getSubFormulas());
             List<Formula> sub_ls = formula.getSubFormulas();
             Formula left_hand = sub_ls.get(0); Formula right_hand = sub_ls.get(1);
-//            if(left_hand.getSubFormulas()!=null)
-//                System.out.println("left: "+left_hand.getSubFormulas().get(0));
             String line = "";
             if(left_hand.getSubFormulas()==null){
                 if(right_hand.getSubFormulas()==null){
@@ -192,7 +188,6 @@ public class normalizeALC {
         List<InferredAxiomGenerator<? extends OWLAxiom>> generators = new ArrayList<>();
         generators.add(new InferredSubClassAxiomGenerator());
         generators.add(new InferredClassAssertionAxiomGenerator());
-//        generators.add(new);
         generators.add(new InferredDisjointClassesAxiomGenerator() {
             boolean precomputed = false;
 
@@ -207,18 +202,14 @@ public class normalizeALC {
             }
         });
 
-        // We can now create an instance of InferredOntologyGenerator.
         InferredOntologyGenerator iog = new InferredOntologyGenerator(reasoner, generators);
-        // Before we actually generate the axioms into an ontology, we first have to create that ontology.
-        // The manager creates the for now empty ontology for the inferred axioms for us.
+
         OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
         OWLOntology inferredAxiomsOntology = manager.createOntology();
-        // Now we use the inferred ontology generator to fill the ontology. That might take some
-        // time since it involves possibly a lot of calls to the reasoner.
+
         iog.fillOntology(manager.getOWLDataFactory(), inferredAxiomsOntology);
         manager.addAxioms(o, inferredAxiomsOntology.getLogicalAxioms());
         for (OWLNamedIndividual i : inferredAxiomsOntology.getIndividualsInSignature()) {
-//            System.out.println("inferred class assertion: "+inferredAxiomsOntology.getClassAssertionAxioms(i));
             manager.addAxioms(o, inferredAxiomsOntology.getClassAssertionAxioms(i));
             manager.addAxioms(o, inferredAxiomsOntology.getObjectPropertyAssertionAxioms(i));
         }
@@ -229,7 +220,10 @@ public class normalizeALC {
     }
 
     public static void main(String[] args) throws Exception {
-
+        if(args.length == 2 ){
+            dirPath = args[0];
+            targetPath = args[1];
+        }
         File directory = new File(dirPath);
         boolean inferflag = true;
         ArrayList file_list = new ArrayList<>();
@@ -248,6 +242,7 @@ public class normalizeALC {
                 System.out.println("original concept amount: " + o.getClassesInSignature().size());
                 System.out.println("original individual amount: " + o.getIndividualsInSignature().size());
 
+                // (Optional) Infer disjoint axioms and assertions.
                 if (inferflag) {
                     infer(o);
                 }
@@ -268,6 +263,7 @@ public class normalizeALC {
                 BackConverter bc = new BackConverter();
                 OWLOntology alc_normed_o = bc.toOWLOntology(alc_norm);
 
+                // To complete the assertions of introduced definers
                 if(inferflag){
                     infer(alc_normed_o);
                 }

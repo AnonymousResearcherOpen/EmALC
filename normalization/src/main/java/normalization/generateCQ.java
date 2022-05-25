@@ -9,13 +9,13 @@ import org.semanticweb.owlapi.reasoner.OWLReasoner;
 import org.semanticweb.owlapi.util.*;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.util.*;
 
 
 public class generateCQ {
+    public static String dirPath = "training/ontologies/";
+    public static String outPath = "training/input/";
     public static ArrayList<OWLClass> concepts;
     public static  ArrayList<OWLObjectProperty> roles;
     public static OWLNamedIndividual[] individuals;
@@ -74,20 +74,12 @@ public class generateCQ {
                     reasoner.precomputeInferences(InferenceType.DISJOINT_CLASSES);
                     precomputed = true;
                 }
-//                for (OWLClass cls : reasoner.getDisjointClasses(entity).getFlattened()) {
-//                    result.add(dataFactory.getOWLDisjointClassesAxiom(entity, cls));
-//                }
             }
         });
 
-        // We can now create an instance of InferredOntologyGenerator.
         InferredOntologyGenerator iog = new InferredOntologyGenerator(reasoner, generators);
-        // Before we actually generate the axioms into an ontology, we first have to create that ontology.
-        // The manager creates the for now empty ontology for the inferred axioms for us.
         OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
         OWLOntology inferredAxiomsOntology = manager.createOntology();
-        // Now we use the inferred ontology generator to fill the ontology. That might take some
-        // time since it involves possibly a lot of calls to the reasoner.
         iog.fillOntology(manager.getOWLDataFactory(), inferredAxiomsOntology);
         manager.addAxioms(o, inferredAxiomsOntology.getLogicalAxioms());
         for (OWLNamedIndividual i : inferredAxiomsOntology.getIndividualsInSignature()) {
@@ -102,12 +94,12 @@ public class generateCQ {
     }
 
     public static void main(String[] args) throws Exception {
-
-        String dirPath = "D:/Tasks/DF-ALC/ontologies/";
-        String outPath = "D:\\Tasks\\DF-ALC\\input\\";
+        if(args.length == 2 ){
+            dirPath = args[0];
+            outPath = args[1];
+        }
         File directory = new File(dirPath);
         int depths = 3;
-//        String[] base_names = {"nifdys.neuroscience-information-framework-nif-dysfunction-ontlogy.14.owl.xml","ontodm-core.ontology-of-core-data-mining-entities.6.owl.xml","sso.syndromic-surveillance-ontology.1.owl.xml"};
         for (File ontology_file:directory.listFiles()) {
             String ontology_name = ontology_file.getName();
             System.out.println(ontology_name);

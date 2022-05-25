@@ -1,0 +1,5443 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.jp/bio/12/glyco/glycan"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.jp/bio/12/glyco/glycan">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#N-glycan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#O-glycan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#absolute_configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#adduct_ion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aglycon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amino_acid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#antibody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#basetype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#biological_repeat_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buffer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#carbohydrate_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chemical_release"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chemical_repeat_unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#citation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#component"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#compound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#core_modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#core_modification_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cyclic_glycan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enzymatic_release"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enzyme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_IGOT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_binding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_binding_antibody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_binding_lectin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_ce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_lc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_lc_ms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_ms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_nmr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evidence_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_binder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_database_category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_epitope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_motif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycan_release"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycoconjugate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycoconjugate_sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycolipid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycopeptide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycoprotein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycosequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycoside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycosyl_hydrolase_reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycosylated_AA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glycosyltransferase_reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gradient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lc_chromatogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lc_column"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lc_digest_chromatogram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lc_peak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lc_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lectin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#linkage_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lipid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_spectrometry_device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mass_spectrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monosaccharide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monosaccharide_alias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monosaccharide_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ms_annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ms_fragment_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ms_peak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ms_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#msn_spectrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neutral_loss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nmr_property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peptide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polymerization_degree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#polysaccharide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profile_spectrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#referenced_compound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relative_configuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#repeat_attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#resource_entry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ring_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saccharide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sample_preparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sequence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solvent_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#source"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#source_modeled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#source_natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#source_sample"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#source_synthetic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subspectrum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#substituent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#substituent_linkage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#substituent_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sulfotransferase_reaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#symbol_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#synthetic_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.uniprot.org/core/Glycosylation_Annotation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.uniprot.org/core/Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Image"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#captured_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#catalyzed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contained_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#degraded_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_adduct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_affinity_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_aglycon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_alias"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_amino_acid_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_anomer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_attached_glycan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_basetype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_category"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_component"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_core_modification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_core_modification_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_default_linkage_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_default_linkage_type2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_destination_organism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_enzyme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_epitope"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_evidence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_exoglycosidase_chromatogram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_exoglycosidase_treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_external_substituent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_first_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_fragment_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_fragmented_spectrum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_glycan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_glycoconjugate_sequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_glycosequence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_glycosylated_AA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_image"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ionisation_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lc_annotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lc_chromatogram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_lc_chromatogram_peak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_linkage_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mass_analyzer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mass_spectrometry_peak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mass_spectrum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_monosaccharide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_monosaccharide_notation_scheme"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_motif"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ms_annotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ms_model"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_neutral_loss"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_peptide"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_polymerization_degree"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_precursor_peak"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_product"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_reference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_relative_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_repeat_attribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_residue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_resource_entry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_ring_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_sample_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_second_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_signal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_subspectrum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_substituent_linkage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_substituent_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_substitution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_substrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_symbol_format"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_synthesis_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_third_configuration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_unassigned_signal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_uniprot_accession"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hosted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hybrid_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in_carbohydrate_format"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#in_glycan_database"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_from_source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#modification_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#published_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#synthesized_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_buffer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_column"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_lc_gradient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_molecule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_ms"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_reference_standard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_software"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_solvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#used_solvent_part"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#elucidated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_AA_sequence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_abbreviation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_affinity_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_alias_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_average_molecular_weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_basetype_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_basetype_linkage_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_cardinality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_cardinality_per_repeat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_cell_line"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_cell_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_charge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_chemical_formula"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_chemical_shift"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_coupling_constant"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_default_linkage_bondorder"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_default_linkage_bondorder2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_default_linking_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_default_linking_position2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_diameter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_disease"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_extended_stereocode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_fluid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_fragment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_intensity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_keyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_life_stage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_linkage_path"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_linkage_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_material"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_method"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_missing_signals_max"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_missing_signals_min"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_modification_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_modification_position2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_monoisotopic_molecular_weight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_ms_level"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_msdb_id"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_multiplicity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_mz"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_nucleus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_organ"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_particle_size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_peak_area"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_pmid"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_repeat_count"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_retention_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_ring_end"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_ring_start"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_sequence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_size"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_stereocode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_strain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_structure_location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_substituent_linkage_position"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_substituent_linkage_position2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_substitution_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_tissue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_url_template"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_valence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_version"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#injection_volume"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_ambiguous"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_fragment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_fuzzy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_linkable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_missing"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_primary_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_trivial_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#of_carbon_number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_amount_mg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_column_temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_concentration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_frequency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_lc_flow_rate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_lc_run_time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_percent_max"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_percent_min"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_ph"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#used_temperature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/bibo/authorList"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageEnd"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageStart"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/bibo/shortTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ontology/bibo/volume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C5D5N"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CD3OD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CDCl3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D2O"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DMSO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H2O"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PNGaseF_release"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#absolute_configuration_unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adduct_ion_h"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adduct_ion_na"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alanine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#allo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#altro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anomer_alpha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anomer_beta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anomer_none"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anomer_unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arabino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arginine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asparagine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aspartic_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#beta_elimination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_carbbank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_csdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_glycoct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_glyde2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_condensed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_extended"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_short"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_kcf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_linearcode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_linucs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#carbohydrate_format_wurcs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#configuration_x"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_aldi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_anhydro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_deoxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_en"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_enx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_geminal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_keto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_sp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_sp2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#core_modification_type_yn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cysteine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-alanine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-arginine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-asparagine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-aspartic_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-cysteine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-glutamic_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-glutamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-glycine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-histidine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-isoleucine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-leucine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-lysine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-methionine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-phenylalanine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-proline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-selenocysteine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-serine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-threonine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-tryptophan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-tyrosine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d-valine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_bcsdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_carbbank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_carint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_carbohydrate_conformation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_carbohydrate_interaction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_glycan_binding_protein"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_glycoenzyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_monosaccharide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_synthesis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_category_tissue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_cazy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_cfg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_cfg_gbp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_cfg_glycoenzymes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_chebi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_chemspider"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glyaffinity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glyco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glycobase_dublin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glycobase_lille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glycomapsdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glycomedb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glyconavi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glyconmr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_jcggdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_kegg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_monosaccharidedb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_pdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_pubchem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_smsa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#erythro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_ce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_hplc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_lc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_lc_ms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_lc_msms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_ms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_msms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#evidence_type_nmr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#furanose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#galacto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gluco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glutamic_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glutamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glycero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glycine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gulo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#histidine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ido"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isoleucine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#leucine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linkage_type_deoxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linkage_type_h_at_oh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linkage_type_h_loss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linkage_type_r_config"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#linkage_type_s_config"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lysine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lyxo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#methionine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_amber_glycam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_bcsdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_carbbank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_cfg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_glycoct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_glycosciences_de"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_monosaccharidedb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_pdb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_x"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_y"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ms_fragment_type_z"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#open"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#phenylalanine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#proline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pyranose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#reductive_beta_elimination"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repeat_attribute_average"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repeat_attribute_exact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repeat_attribute_max"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repeat_attribute_min"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#repeat_attribute_unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ribo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ring_type_unknown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#selenocysteine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#serine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_acetyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_amino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_bromo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_chloro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_ethanolamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_ethyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_fluoro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_formyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_glycolyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_hydroxymethyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_imino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_iodo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_methyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_acetyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_alanine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_dimethyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_ethyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_formyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_glycolyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_methyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_succinate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_sulfate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_trifluoroacetyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_n_trimethyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_nitrat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_phosphate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_r_lactate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_r_pyruvate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_s_lactate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_s_methyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_s_pyruvate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_seleno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_sulfate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_telluro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_thio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_trifluoroacetyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_x_lactate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#substituent_type_x_pyruvate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symbol_format_cfg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symbol_format_cfg_bw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symbol_format_text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symbol_format_uoxf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#symbol_format_uoxf_bw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#synthetic_type_chemical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#synthetic_type_chemoenzymatic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#synthetic_type_enzymatic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#talo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#threo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#threonine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tryptophan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tyrosine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#valine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xylo"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="http://www.uniprot.org/core/Taxon"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#N-glycan"/>
+        <Class IRI="#saccharide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#O-glycan"/>
+        <Class IRI="#saccharide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#absolute_configuration"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adduct"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#adduct_ion"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aglycon"/>
+        <Class IRI="#compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amino_acid"/>
+        <Class IRI="#compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anomer"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#antibody"/>
+        <Class IRI="#glycan_binder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#basetype"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#biological_repeat_unit"/>
+        <Class IRI="#motif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buffer"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chemical_release"/>
+        <Class IRI="#glycan_release"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chemical_repeat_unit"/>
+        <Class IRI="#motif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#component"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#component"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_monosaccharide"/>
+            <Class IRI="#monosaccharide"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#configuration"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#core_modification"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#core_modification_type"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cyclic_glycan"/>
+        <Class IRI="#saccharide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enzymatic_release"/>
+        <Class IRI="#glycan_release"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enzyme"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_IGOT"/>
+        <Class IRI="#evidence_lc_ms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_binding"/>
+        <Class IRI="#evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_binding_antibody"/>
+        <Class IRI="#evidence_binding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_binding_lectin"/>
+        <Class IRI="#evidence_binding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_ce"/>
+        <Class IRI="#evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_lc"/>
+        <Class IRI="#evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_lc_ms"/>
+        <Class IRI="#evidence_ms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_ms"/>
+        <Class IRI="#evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_nmr"/>
+        <Class IRI="#evidence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evidence_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_binder"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_database"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_database_category"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_epitope"/>
+        <Class IRI="#glycan_motif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_motif"/>
+        <Class IRI="#motif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycan_release"/>
+        <Class IRI="#sample_preparation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycoconjugate"/>
+        <Class IRI="#compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycoconjugate_sequence"/>
+        <Class IRI="#sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycolipid"/>
+        <Class IRI="#glycoconjugate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycopeptide"/>
+        <Class IRI="#glycoconjugate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycoprotein"/>
+        <Class IRI="#glycoconjugate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycosequence"/>
+        <Class IRI="#sequence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycoside"/>
+        <Class IRI="#glycoconjugate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycosyl_hydrolase_reaction"/>
+        <Class IRI="#reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycosylated_AA"/>
+        <Class IRI="#glycoconjugate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glycosyltransferase_reaction"/>
+        <Class IRI="#reaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gradient"/>
+        <Class IRI="#lc_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#image"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lc_chromatogram"/>
+        <Class IRI="#lc_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lc_column"/>
+        <Class IRI="#lc_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lc_digest_chromatogram"/>
+        <Class IRI="#lc_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lc_peak"/>
+        <Class IRI="#lc_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lectin"/>
+        <Class IRI="#glycan_binder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#linkage_type"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lipid"/>
+        <Class IRI="#aglycon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_spectrometry_device"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mass_spectrum"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monosaccharide"/>
+        <Class IRI="#saccharide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monosaccharide_alias"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ms_annotation"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ms_fragment_type"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ms_peak"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#msn_spectrum"/>
+        <Class IRI="#mass_spectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neutral_loss"/>
+        <Class IRI="#ms_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#peptide"/>
+        <Class IRI="#aglycon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polymerization_degree"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#polysaccharide"/>
+        <Class IRI="#saccharide"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profile_spectrum"/>
+        <Class IRI="#mass_spectrum"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protein"/>
+        <Class IRI="#aglycon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#relative_configuration"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#resource_entry"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ring_type"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saccharide"/>
+        <Class IRI="#compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sequence"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#signal"/>
+        <Class IRI="#nmr_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solvent"/>
+        <Class IRI="#role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#source"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#source_modeled"/>
+        <Class IRI="#source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#source_natural"/>
+        <Class IRI="#source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#source_sample"/>
+        <Class IRI="#source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#source_synthetic"/>
+        <Class IRI="#source"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subspectrum"/>
+        <Class IRI="#nmr_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subspectrum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_signal"/>
+            <Class IRI="#signal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substituent"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substituent_linkage"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#substituent_type"/>
+        <Class IRI="#monosaccharide_property"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sulfotransferase_reaction"/>
+        <Class IRI="#reaction"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#aglycon"/>
+        <ObjectUnionOf>
+            <Class IRI="#amino_acid"/>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#amino_acid"/>
+        <ObjectUnionOf>
+            <Class IRI="#aglycon"/>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#glycoconjugate"/>
+        <ObjectUnionOf>
+            <Class IRI="#aglycon"/>
+            <Class IRI="#amino_acid"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#lipid"/>
+        <ObjectUnionOf>
+            <Class IRI="#peptide"/>
+            <Class IRI="#protein"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#peptide"/>
+        <ObjectUnionOf>
+            <Class IRI="#lipid"/>
+            <Class IRI="#protein"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#protein"/>
+        <ObjectUnionOf>
+            <Class IRI="#lipid"/>
+            <Class IRI="#peptide"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#saccharide"/>
+        <ObjectUnionOf>
+            <Class IRI="#aglycon"/>
+            <Class IRI="#amino_acid"/>
+            <Class IRI="#glycoconjugate"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#C5D5N"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#CD3OD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#CDCl3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#D2O"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#DMSO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#solvent"/>
+        <NamedIndividual IRI="#H2O"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#enzymatic_release"/>
+        <NamedIndividual IRI="#PNGaseF_release"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#absolute_configuration"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#absolute_configuration"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#absolute_configuration"/>
+        <NamedIndividual IRI="#absolute_configuration_unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adduct_ion"/>
+        <NamedIndividual IRI="#adduct_ion_h"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#adduct_ion"/>
+        <NamedIndividual IRI="#adduct_ion_na"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#alanine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#allo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#altro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#anomer"/>
+        <NamedIndividual IRI="#anomer_alpha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#anomer"/>
+        <NamedIndividual IRI="#anomer_beta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#anomer"/>
+        <NamedIndividual IRI="#anomer_none"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#anomer"/>
+        <NamedIndividual IRI="#anomer_unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#arabino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#arginine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#asparagine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#aspartic_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chemical_release"/>
+        <NamedIndividual IRI="#beta_elimination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_carbbank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_csdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_glycoct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_glyde2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_condensed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_extended"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_iupac_short"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_kcf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_linearcode"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_linucs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#carbohydrate_format"/>
+        <NamedIndividual IRI="#carbohydrate_format_wurcs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#configuration"/>
+        <NamedIndividual IRI="#configuration_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_aldi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_anhydro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_deoxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_en"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_enx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_geminal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_keto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_sp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_sp2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#core_modification_type"/>
+        <NamedIndividual IRI="#core_modification_type_yn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#cysteine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-alanine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-arginine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-asparagine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-aspartic_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-cysteine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-glutamic_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-glutamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-glycine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-histidine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-isoleucine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-leucine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-lysine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-methionine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-phenylalanine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-proline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-selenocysteine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-serine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-threonine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-tryptophan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-tyrosine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#d-valine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_carbbank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_carint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_carbohydrate_conformation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_carbohydrate_interaction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_glycan_binding_protein"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_glycoenzyme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_monosaccharide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_synthesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database_category"/>
+        <NamedIndividual IRI="#database_category_tissue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_cazy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_cfg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_cfg_gbp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_cfg_glycoenzymes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_chebi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_chemspider"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glyaffinity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glyco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glycobase_dublin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glycobase_lille"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glycomapsdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glycomedb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glyconmr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_jcggdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_kegg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_monosaccharidedb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_pdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_pubchem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_smsa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#glycan_database"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#erythro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_ce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_hplc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_lc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_lc_ms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_lc_msms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_ms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_msms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#evidence_type"/>
+        <NamedIndividual IRI="#evidence_type_nmr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ring_type"/>
+        <NamedIndividual IRI="#furanose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#galacto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#gluco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#glutamic_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#glutamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#glycero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#glycine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#gulo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#histidine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#ido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#isoleucine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#leucine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#linkage_type"/>
+        <NamedIndividual IRI="#linkage_type_deoxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#linkage_type"/>
+        <NamedIndividual IRI="#linkage_type_h_at_oh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#linkage_type"/>
+        <NamedIndividual IRI="#linkage_type_h_loss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#linkage_type"/>
+        <NamedIndividual IRI="#linkage_type_r_config"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#linkage_type"/>
+        <NamedIndividual IRI="#linkage_type_s_config"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#lysine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#lyxo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#manno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#methionine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_amber_glycam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_bcsdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_carbbank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_cfg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_glycoct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_glycosciences_de"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_monosaccharidedb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+        <NamedIndividual IRI="#monosaccharide_notation_scheme_pdb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_c"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_x"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_y"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ms_fragment_type"/>
+        <NamedIndividual IRI="#ms_fragment_type_z"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ring_type"/>
+        <NamedIndividual IRI="#open"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#phenylalanine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#proline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ring_type"/>
+        <NamedIndividual IRI="#pyranose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#chemical_release"/>
+        <NamedIndividual IRI="#reductive_beta_elimination"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repeat_attribute"/>
+        <NamedIndividual IRI="#repeat_attribute_average"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repeat_attribute"/>
+        <NamedIndividual IRI="#repeat_attribute_exact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repeat_attribute"/>
+        <NamedIndividual IRI="#repeat_attribute_max"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repeat_attribute"/>
+        <NamedIndividual IRI="#repeat_attribute_min"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#repeat_attribute"/>
+        <NamedIndividual IRI="#repeat_attribute_unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#ribo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ring_type"/>
+        <NamedIndividual IRI="#ring_type_unknown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#selenocysteine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#serine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_acetyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_amino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_bromo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_chloro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_ethanolamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_ethyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_fluoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_formyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_glycolyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_hydroxymethyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_imino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_iodo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_methyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_acetyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_alanine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_dimethyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_ethyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_formyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_glycolyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_methyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_succinate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_sulfate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_trifluoroacetyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_n_trimethyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_nitrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_phosphate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_r_lactate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_r_pyruvate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_s_lactate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_s_methyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_s_pyruvate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_seleno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_sulfate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_telluro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_thio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_trifluoroacetyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_x_lactate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#substituent_type"/>
+        <NamedIndividual IRI="#substituent_type_x_pyruvate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#symbol_format"/>
+        <NamedIndividual IRI="#symbol_format_cfg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#symbol_format"/>
+        <NamedIndividual IRI="#symbol_format_cfg_bw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#symbol_format"/>
+        <NamedIndividual IRI="#symbol_format_text"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#symbol_format"/>
+        <NamedIndividual IRI="#symbol_format_uoxf"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#symbol_format"/>
+        <NamedIndividual IRI="#symbol_format_uoxf_bw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#synthetic_type"/>
+        <NamedIndividual IRI="#synthetic_type_chemical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#synthetic_type"/>
+        <NamedIndividual IRI="#synthetic_type_chemoenzymatic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#synthetic_type"/>
+        <NamedIndividual IRI="#synthetic_type_enzymatic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#talo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#threo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#threonine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#tryptophan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#tyrosine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amino_acid"/>
+        <NamedIndividual IRI="#valine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#relative_configuration"/>
+        <NamedIndividual IRI="#xylo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#alanine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#arginine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#asparagine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#aspartic_acid"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#cysteine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-alanine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-arginine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-asparagine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-aspartic_acid"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-cysteine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-glutamic_acid"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-glutamine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-glycine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-histidine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-isoleucine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-leucine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-lysine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-methionine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-phenylalanine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-proline"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-selenocysteine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-serine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-threonine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-tryptophan"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-tyrosine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#d-valine"/>
+        <NamedIndividual IRI="#absolute_configuration_dexter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_carint"/>
+        <NamedIndividual IRI="#database_category_carbohydrate_interaction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_cazy"/>
+        <NamedIndividual IRI="#database_category_glycoenzyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_cfg"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_cfg_gbp"/>
+        <NamedIndividual IRI="#database_category_glycan_binding_protein"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_cfg_glycoenzymes"/>
+        <NamedIndividual IRI="#database_category_glycoenzyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_chebi"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_chemspider"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycomapsdb"/>
+        <NamedIndividual IRI="#database_category_carbohydrate_conformation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+        <NamedIndividual IRI="#database_category_synthesis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glyconmr"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <NamedIndividual IRI="#database_category_carbohydrate_conformation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_monosaccharidedb"/>
+        <NamedIndividual IRI="#database_category_monosaccharide"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_pubchem"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_smsa"/>
+        <NamedIndividual IRI="#database_category_chemical_compound"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_bibliography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_cabohydrate_structure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_experimental"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_glycoenzyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_taxonomy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_category"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <NamedIndividual IRI="#database_category_tissue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#glutamic_acid"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#glutamine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#glycine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#histidine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#isoleucine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#leucine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#lysine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#methionine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#phenylalanine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#proline"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#selenocysteine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#serine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#threonine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#tryptophan"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#tyrosine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <NamedIndividual IRI="#valine"/>
+        <NamedIndividual IRI="#absolute_configuration_laevus"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <Literal>BCSDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_bcsdb"/>
+        <Literal>http://csdb.glycoscience.ru/bacterial/core/search_id.php?mode=record&amp;id_list=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_carbbank"/>
+        <Literal>CCSD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_carbbank"/>
+        <Literal>http://www.genome.jp/dbget-bin/www_bget?carbbank+[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_carint"/>
+        <Literal>Carint</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_carint"/>
+        <Literal>http://ws.glyconavi.org/carint/entry.php?id=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_cazy"/>
+        <Literal>CAZy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_cazy"/>
+        <Literal>http://www.cazy.org/[?id?].html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_cfg"/>
+        <Literal>CFG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_cfg"/>
+        <Literal>http://www.functionalglycomics.org/glycomics/CarbohydrateServlet?pageType=view&amp;view=view&amp;operationType=view&amp;carbId=[?id?]&amp;sideMenu=no%0A%20%20%09%09</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_cfg_gbp"/>
+        <Literal>CfgGBP</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_cfg_gbp"/>
+        <Literal>http://www.functionalglycomics.org/glycomics/molecule/jsp/viewGbpMolecule.jsp?gbpId=[?id?]&amp;sideMenu=yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_cfg_glycoenzymes"/>
+        <Literal>CfgGlycoenzyme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_cfg_glycoenzymes"/>
+        <Literal>http://www.functionalglycomics.org/glycomics/molecule/jsp/glycoEnzyme/viewGlycoEnzyme.jsp?gbpId=[?id?]&amp;sideMenu=true&amp;pageType=general</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_chebi"/>
+        <Literal>ChEBI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_chebi"/>
+        <Literal>http://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=&apos;[?id?]&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_chemspider"/>
+        <Literal>ChemSpider</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_chemspider"/>
+        <Literal>http://www.chemspider.com/Chemical-Structure.[?id?].html</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glyaffinity"/>
+        <Literal>GlyAffinity</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glyaffinity"/>
+        <Literal>http://worm.mpi-cbg.de/affinity/structure.action?ID=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glyco"/>
+        <Literal>GlycO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glyco"/>
+        <Literal>http://glycomics.ccrc.uga.edu/ontologywebapi/service/glycan/id/[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glycobase_dublin"/>
+        <Literal>GlycoBase(Dublin)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glycobase_lille"/>
+        <Literal>GlycoBase(Lille)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glycobase_lille"/>
+        <Literal>http://glycobase.univ-lille1.fr/base/view_mol.php?id=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glycomapsdb"/>
+        <Literal>GlycoMapsDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glycomapsdb"/>
+        <Literal>http://www.glycosciences.de/modeling/glycomapsdb/showdetails.php?mapid=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glycomedb"/>
+        <Literal>GlycomeDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glycomedb"/>
+        <Literal>http://www.glycome-db.org/database/showStructure.action?glycomeId=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+        <Literal>GlycoNAVI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glyconavi"/>
+        <Literal>http://ws.glyconavi.org/DbDetail/moldetail.aspx?moleculeID=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glyconmr"/>
+        <Literal>GlycoNMR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glyconmr"/>
+        <Literal>http://glycoinfolab.jp/GlycoNMR/GeneralDetail?spc=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <Literal>GLYCOSCIENCES.de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_glycosciences_de"/>
+        <Literal>http://www.glycosciences.de/sweetdb/start.php?action=explore_linucsid&amp;linucsid=[?id?]&amp;show=1#struct%0A%20%20%09%09</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_jcggdb"/>
+        <Literal>JCGGDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_jcggdb"/>
+        <Literal>http://jcggdb.jp/idb/jcggdb/[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_kegg"/>
+        <Literal>KEGG</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_kegg"/>
+        <Literal>http://www.genome.jp/dbget-bin/www_bget?gl:[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_monosaccharidedb"/>
+        <Literal>MonosaccharideDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_monosaccharidedb"/>
+        <Literal>http://www.monosaccharidedb.org/display_monosaccharide.action?id=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_pdb"/>
+        <Literal>PDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_pdb"/>
+        <Literal>http://www.rcsb.org/pdb/explore/explore.do?structureId=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <Literal>PFCSDB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_pfcsdb"/>
+        <Literal>http://csdb.glycoscience.ru/plant_fungal/core/search_id.php?mode=record&amp;id_list=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_pubchem"/>
+        <Literal>PubChem</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_pubchem"/>
+        <Literal>http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_smsa"/>
+        <Literal>SMSA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_smsa"/>
+        <Literal>http://ws.glyconavi.org/SM/id.php?Id=[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+        <Literal>UniCarb-DB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_unicarb_db"/>
+        <Literal>http://www.unicarb-db.org/structure/[?id?]</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_abbreviation"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <Literal>UniCarbKB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_url_template"/>
+        <NamedIndividual IRI="#database_unicarbkb"/>
+        <Literal>http://www.unicarbkb.org/structure/[?id?]</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#degraded_by"/>
+        <ObjectProperty IRI="#catalyzed_by"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_epitope"/>
+        <ObjectProperty IRI="#has_motif"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#synthesized_by"/>
+        <ObjectProperty IRI="#catalyzed_by"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contained_in"/>
+        <ObjectProperty IRI="#has_motif"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#captured_by"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_amino_acid_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_anomer"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_basetype"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_core_modification_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_destination_organism"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_exoglycosidase_treatment"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_first_configuration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_glycan"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_ion"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_linkage_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_monosaccharide"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_monosaccharide_notation_scheme"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_ms_model"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_peptide"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_relative_configuration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_repeat_attribute"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_residue"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_ring_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_second_configuration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_substituent_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_symbol_format"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_synthesis_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_taxon"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_third_configuration"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_uniprot_accession"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hosted_by"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#in_carbohydrate_format"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#in_glycan_database"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#modification_type"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#published_in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#used_column"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#used_ms"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#used_solvent"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#has_uniprot_accession"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#hybrid_with"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#has_alias"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#captured_by"/>
+        <Class IRI="#evidence_binding"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#catalyzed_by"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contained_in"/>
+        <Class IRI="#glycan_motif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#degraded_by"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_adduct"/>
+        <Class IRI="#ms_annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_affinity_to"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_aglycon"/>
+        <Class IRI="#glycoconjugate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_alias"/>
+        <Class IRI="#monosaccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_amino_acid_type"/>
+        <Class IRI="#glycosylated_AA"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_anomer"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_attached_glycan"/>
+        <Class IRI="#glycoconjugate"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_basetype"/>
+        <Class IRI="#monosaccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_category"/>
+        <Class IRI="#glycan_database"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_component"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_configuration"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_core_modification"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_core_modification_type"/>
+        <Class IRI="#core_modification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_default_linkage_type"/>
+        <Class IRI="#substituent_type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_default_linkage_type2"/>
+        <Class IRI="#substituent_type"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_destination_organism"/>
+        <ObjectUnionOf>
+            <Class IRI="#source_modeled"/>
+            <Class IRI="#source_synthetic"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_enzyme"/>
+        <ObjectUnionOf>
+            <Class IRI="#lc_digest_chromatogram"/>
+            <Class IRI="#reaction"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_epitope"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_evidence"/>
+        <Class IRI="#referenced_compound"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_exoglycosidase_chromatogram"/>
+        <Class IRI="#lc_chromatogram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_exoglycosidase_treatment"/>
+        <Class IRI="#lc_digest_chromatogram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_external_substituent"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_first_configuration"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_fragment_type"/>
+        <Class IRI="#ms_annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_fragmented_spectrum"/>
+        <Class IRI="#mass_spectrum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycan"/>
+        <Class IRI="#referenced_compound"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycoconjugate_sequence"/>
+        <Class IRI="#motif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycoconjugate_sequence"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycosequence"/>
+        <Class IRI="#motif"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycosequence"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_glycosylated_AA"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycopeptide"/>
+            <Class IRI="#glycoprotein"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_image"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ion"/>
+        <Class IRI="#adduct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ionisation_type"/>
+        <Class IRI="#mass_spectrometry_device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_lc_annotation"/>
+        <Class IRI="#lc_peak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_lc_chromatogram"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_lc_chromatogram_peak"/>
+        <Class IRI="#lc_chromatogram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_linkage_type"/>
+        <Class IRI="#substituent_linkage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mass_analyzer"/>
+        <Class IRI="#mass_spectrometry_device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mass_spectrometry_peak"/>
+        <Class IRI="#mass_spectrum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mass_spectrum"/>
+        <Class IRI="#evidence_ms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_monosaccharide"/>
+        <Class IRI="#component"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_monosaccharide_notation_scheme"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_motif"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ms_annotation"/>
+        <Class IRI="#ms_peak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ms_model"/>
+        <Class IRI="#mass_spectrometry_device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_neutral_loss"/>
+        <Class IRI="#ms_annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_peptide"/>
+        <Class IRI="#evidence_IGOT"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_polymerization_degree"/>
+        <Class IRI="#polysaccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_precursor_peak"/>
+        <Class IRI="#evidence_ms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_product"/>
+        <Class IRI="#reaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_reference"/>
+        <ObjectUnionOf>
+            <Class IRI="#citation"/>
+            <Class IRI="#compound"/>
+            <Class IRI="#evidence"/>
+            <Class IRI="#source"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_relative_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_repeat_attribute"/>
+        <Class IRI="#polymerization_degree"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_residue"/>
+        <Class IRI="#subspectrum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_resource_entry"/>
+        <ObjectUnionOf>
+            <Class IRI="#compound"/>
+            <Class IRI="#referenced_compound"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_ring_type"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_sample_type"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_second_configuration"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_signal"/>
+        <Class IRI="#subspectrum"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_subspectrum"/>
+        <Class IRI="#evidence_nmr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_substituent_linkage"/>
+        <Class IRI="#substituent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_substituent_type"/>
+        <Class IRI="#substituent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_substitution"/>
+        <Class IRI="#monosaccharide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_substrate"/>
+        <Class IRI="#reaction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_symbol_format"/>
+        <Class IRI="#image"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_synthesis_type"/>
+        <Class IRI="#source_synthetic"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_taxon"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_third_configuration"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_unassigned_signal"/>
+        <Class IRI="#evidence_nmr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_uniprot_accession"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycopeptide"/>
+            <Class IRI="#glycoprotein"/>
+            <Class IRI="#protein"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hosted_by"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hybrid_with"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in_carbohydrate_format"/>
+        <Class IRI="#sequence"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#in_glycan_database"/>
+        <Class IRI="#resource_entry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_from_source"/>
+        <Class IRI="#referenced_compound"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#modification_type"/>
+        <Class IRI="#glycosylated_AA"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#published_in"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence"/>
+            <Class IRI="#referenced_compound"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#synthesized_by"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_buffer"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_nmr"/>
+            <Class IRI="#reaction"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_column"/>
+        <Class IRI="#evidence_lc_ms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_lc_gradient"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_molecule"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_ms"/>
+        <Class IRI="#evidence_ms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_reference_standard"/>
+        <Class IRI="#evidence_nmr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_software"/>
+        <Class IRI="#source_modeled"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_solvent"/>
+        <Class IRI="#solvent_part"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#used_solvent_part"/>
+        <Class IRI="#evidence_nmr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#captured_by"/>
+        <Class IRI="#glycan_binder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#catalyzed_by"/>
+        <Class IRI="#reaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contained_in"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#degraded_by"/>
+        <Class IRI="#glycosyl_hydrolase_reaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_absolute_configuration"/>
+        <Class IRI="#absolute_configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_adduct"/>
+        <Class IRI="#adduct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_affinity_to"/>
+        <Class IRI="#glycan_binder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_aglycon"/>
+        <Class IRI="#aglycon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_alias"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_amino_acid_type"/>
+        <Class IRI="#amino_acid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_anomer"/>
+        <Class IRI="#anomer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_attached_glycan"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_basetype"/>
+        <Class IRI="#basetype"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_category"/>
+        <Class IRI="#glycan_database_category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_component"/>
+        <Class IRI="#component"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_core_modification"/>
+        <Class IRI="#core_modification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_core_modification_type"/>
+        <Class IRI="#core_modification_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_default_linkage_type"/>
+        <Class IRI="#linkage_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_default_linkage_type2"/>
+        <Class IRI="#linkage_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_destination_organism"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_enzyme"/>
+        <Class IRI="#enzyme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_epitope"/>
+        <Class IRI="#glycan_epitope"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_evidence"/>
+        <Class IRI="#evidence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_exoglycosidase_chromatogram"/>
+        <Class IRI="#lc_digest_chromatogram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_exoglycosidase_treatment"/>
+        <Class IRI="#reaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_external_substituent"/>
+        <Class IRI="#substituent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_first_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_fragment_type"/>
+        <Class IRI="#ms_fragment_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_fragmented_spectrum"/>
+        <Class IRI="#msn_spectrum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_glycan"/>
+        <Class IRI="#saccharide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_glycoconjugate_sequence"/>
+        <Class IRI="#glycoconjugate_sequence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_glycosequence"/>
+        <Class IRI="#glycosequence"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_glycosylated_AA"/>
+        <Class IRI="#glycosylated_AA"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_image"/>
+        <Class IRI="#image"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ion"/>
+        <Class IRI="#adduct_ion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ionisation_type"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000008"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_lc_annotation"/>
+        <Class IRI="#compound"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_lc_chromatogram"/>
+        <Class IRI="#lc_chromatogram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_lc_chromatogram_peak"/>
+        <Class IRI="#lc_peak"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_linkage_type"/>
+        <Class IRI="#linkage_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mass_analyzer"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000443"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mass_spectrometry_peak"/>
+        <Class IRI="#ms_peak"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mass_spectrum"/>
+        <Class IRI="#mass_spectrum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_monosaccharide"/>
+        <Class IRI="#monosaccharide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_monosaccharide_notation_scheme"/>
+        <Class IRI="#monosaccharide_notation_scheme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_motif"/>
+        <Class IRI="#glycan_motif"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ms_annotation"/>
+        <Class IRI="#ms_annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ms_model"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MS_1000031"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_neutral_loss"/>
+        <Class IRI="#neutral_loss"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_peptide"/>
+        <Class IRI="#glycopeptide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_polymerization_degree"/>
+        <Class IRI="#polymerization_degree"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_precursor_peak"/>
+        <Class IRI="#ms_peak"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_product"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_reference"/>
+        <Class IRI="#referenced_compound"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_relative_configuration"/>
+        <Class IRI="#relative_configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_repeat_attribute"/>
+        <Class IRI="#repeat_attribute"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_residue"/>
+        <Class IRI="#monosaccharide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_resource_entry"/>
+        <Class IRI="#resource_entry"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_ring_type"/>
+        <Class IRI="#ring_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_sample_type"/>
+        <Class IRI="#source_sample"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_second_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_signal"/>
+        <Class IRI="#signal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_subspectrum"/>
+        <Class IRI="#subspectrum"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_substituent_linkage"/>
+        <Class IRI="#substituent_linkage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_substituent_type"/>
+        <Class IRI="#substituent_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_substitution"/>
+        <Class IRI="#substituent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_substrate"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycoconjugate"/>
+            <Class IRI="#saccharide"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_symbol_format"/>
+        <Class IRI="#symbol_format"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_synthesis_type"/>
+        <Class IRI="#synthetic_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_third_configuration"/>
+        <Class IRI="#configuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_unassigned_signal"/>
+        <Class IRI="#signal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_uniprot_accession"/>
+        <Class IRI="http://www.uniprot.org/core/Protein"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hosted_by"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hybrid_with"/>
+        <Class IRI="#source_natural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in_carbohydrate_format"/>
+        <Class IRI="#carbohydrate_format"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#in_glycan_database"/>
+        <Class IRI="#glycan_database"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_from_source"/>
+        <Class IRI="#source"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#modification_type"/>
+        <Class IRI="http://www.uniprot.org/core/Glycosylation_Annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#published_in"/>
+        <Class IRI="#citation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#synthesized_by"/>
+        <Class IRI="#glycosyltransferase_reaction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_buffer"/>
+        <Class IRI="#buffer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_column"/>
+        <Class IRI="#lc_column"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_lc_gradient"/>
+        <Class IRI="#gradient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_molecule"/>
+        <Class IRI="#compound"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_ms"/>
+        <Class IRI="#mass_spectrometry_device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_reference_standard"/>
+        <Class IRI="#compound"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_software"/>
+        <Class IRI="#software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_solvent"/>
+        <Class IRI="#solvent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#used_solvent_part"/>
+        <Class IRI="#solvent_part"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+        <DataProperty IRI="#has_chemical_shift"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+        <DataProperty IRI="#has_chemical_shift"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#elucidated"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_AA_sequence"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_abbreviation"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_affinity_value"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_average_molecular_weight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_basetype_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_basetype_linkage_position"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_cardinality"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_cardinality_per_repeat"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_cell_line"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_cell_type"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_chemical_formula"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_count"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_diameter"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_extended_stereocode"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_fragment"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_intensity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_length"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_life_stage"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_linkage_path"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_manufacturer"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_material"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_model"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_modification_position"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_modification_position2"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_monoisotopic_molecular_weight"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_ms_level"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_msdb_id"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_multiplicity"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_mz"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_organ"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_particle_size"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_peak_area"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_repeat_count"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_retention_time"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_ring_end"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_ring_start"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_sequence"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_size"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_stereocode"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_strain"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_substituent_linkage_position"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_substituent_linkage_position2"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_taxon"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_tissue"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_url_template"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_version"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#injection_volume"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_ambiguous"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_fragment"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_missing"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_primary_name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#is_trivial_name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#of_carbon_number"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ratio"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_column_temperature"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_lc_flow_rate"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_lc_run_time"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_percent_max"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_percent_min"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_ph"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#used_temperature"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageEnd"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageStart"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="http://purl.org/ontology/bibo/volume"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#elucidated"/>
+        <Class IRI="#referenced_compound"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_AA_sequence"/>
+        <ObjectUnionOf>
+            <Class IRI="#glycopeptide"/>
+            <Class IRI="#glycoprotein"/>
+            <Class IRI="#peptide"/>
+            <Class IRI="#protein"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_abbreviation"/>
+        <Class IRI="#glycan_database"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_affinity_value"/>
+        <Class IRI="#evidence_binding"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_alias_name"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_average_molecular_weight"/>
+        <Class IRI="#monosaccharide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_basetype_id"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_basetype_linkage_position"/>
+        <Class IRI="#substituent_linkage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_cardinality"/>
+        <Class IRI="#component"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_cardinality_per_repeat"/>
+        <Class IRI="#component"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_cell_line"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_cell_type"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_charge"/>
+        <Class IRI="#ms_peak"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_chemical_formula"/>
+        <Class IRI="#neutral_loss"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_chemical_shift"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_count"/>
+        <ObjectUnionOf>
+            <Class IRI="#adduct"/>
+            <Class IRI="#neutral_loss"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_coupling_constant"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_default_linkage_bondorder"/>
+        <Class IRI="#substituent_type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_default_linkage_bondorder2"/>
+        <Class IRI="#substituent_type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_default_linking_position"/>
+        <Class IRI="#substituent_type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_default_linking_position2"/>
+        <Class IRI="#substituent_type"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_diameter"/>
+        <Class IRI="#lc_column"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_disease"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_extended_stereocode"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_fluid"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_fragment"/>
+        <Class IRI="#ms_annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_intensity"/>
+        <Class IRI="#ms_peak"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_keyword"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_length"/>
+        <Class IRI="#lc_column"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_life_stage"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_linkage_path"/>
+        <Class IRI="#subspectrum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_linkage_position"/>
+        <Class IRI="#monosaccharide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_manufacturer"/>
+        <Class IRI="#evidence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_material"/>
+        <Class IRI="#lc_column"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_method"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_missing_signals_max"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_missing_signals_min"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_model"/>
+        <Class IRI="#evidence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_modification_position"/>
+        <Class IRI="#core_modification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_modification_position2"/>
+        <Class IRI="#core_modification"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_monoisotopic_molecular_weight"/>
+        <Class IRI="#monosaccharide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_ms_level"/>
+        <Class IRI="#mass_spectrum"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_msdb_id"/>
+        <Class IRI="#monosaccharide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_multiplicity"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_mz"/>
+        <Class IRI="#ms_peak"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_nucleus"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_organ"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_particle_size"/>
+        <Class IRI="#lc_column"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_peak_area"/>
+        <Class IRI="#lc_peak"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_pmid"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_repeat_count"/>
+        <Class IRI="#polymerization_degree"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_retention_time"/>
+        <ObjectUnionOf>
+            <Class IRI="#lc_peak"/>
+            <Class IRI="#msn_spectrum"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_ring_end"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_ring_start"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_sequence"/>
+        <Class IRI="#sequence"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_stereocode"/>
+        <Class IRI="#basetype"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_structure_location"/>
+        <Class IRI="#referenced_compound"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_substituent_linkage_position"/>
+        <Class IRI="#substituent_linkage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_substituent_linkage_position2"/>
+        <Class IRI="#substituent_linkage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_substitution_name"/>
+        <Class IRI="#substituent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_tissue"/>
+        <Class IRI="#source_natural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_url_template"/>
+        <Class IRI="#glycan_database"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_valence"/>
+        <Class IRI="#substituent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <Class IRI="#software"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#injection_volume"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_ambiguous"/>
+        <Class IRI="#saccharide"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_fragment"/>
+        <ObjectUnionOf>
+            <Class IRI="#source_modeled"/>
+            <Class IRI="#source_synthetic"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_fuzzy"/>
+        <Class IRI="#substituent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_linkable"/>
+        <Class IRI="#substituent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_missing"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_primary_name"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#is_trivial_name"/>
+        <Class IRI="#monosaccharide_alias"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#of_carbon_number"/>
+        <Class IRI="#signal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratio"/>
+        <Class IRI="#solvent_part"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_amount_mg"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_column_temperature"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_concentration"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_frequency"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_lc_flow_rate"/>
+        <ObjectUnionOf>
+            <Class IRI="#evidence_lc"/>
+            <Class IRI="#evidence_lc_ms"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_lc_run_time"/>
+        <Class IRI="#gradient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_percent_max"/>
+        <Class IRI="#gradient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_percent_min"/>
+        <Class IRI="#gradient"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_ph"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#used_temperature"/>
+        <Class IRI="#evidence_nmr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/bibo/authorList"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageEnd"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageStart"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/bibo/shortTitle"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ontology/bibo/volume"/>
+        <Class IRI="#citation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#elucidated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_AA_sequence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_abbreviation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_affinity_value"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_alias_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_average_molecular_weight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_basetype_id"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_basetype_linkage_position"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_cardinality"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_cardinality_per_repeat"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_cell_line"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_cell_type"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_charge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_chemical_formula"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_chemical_shift"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_count"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_coupling_constant"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_default_linkage_bondorder"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_default_linkage_bondorder2"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_default_linking_position"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_default_linking_position2"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_diameter"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_disease"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_extended_stereocode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_fluid"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_fragment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_intensity"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_keyword"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_length"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_life_stage"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_linkage_path"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_linkage_position"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_manufacturer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_material"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_method"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_missing_signals_max"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_missing_signals_min"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_model"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_modification_position"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_modification_position2"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_monoisotopic_molecular_weight"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_ms_level"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_msdb_id"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_multiplicity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_mz"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_nucleus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_organ"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_particle_size"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_peak_area"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_pmid"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_repeat_count"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_retention_time"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_ring_end"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_ring_start"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_sequence"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_size"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_stereocode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_structure_location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_substituent_linkage_position"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_substituent_linkage_position2"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_substitution_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_taxon"/>
+        <Datatype IRI="http://www.uniprot.org/core/Taxon"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_tissue"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_url_template"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_valence"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#injection_volume"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_ambiguous"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_fragment"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_fuzzy"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_linkable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_missing"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_primary_name"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_trivial_name"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#of_carbon_number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ratio"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_amount_mg"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_column_temperature"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_concentration"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_frequency"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_lc_flow_rate"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_lc_run_time"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_percent_max"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_percent_min"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_ph"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#used_temperature"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/terms/issued"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/bibo/authorList"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageEnd"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/bibo/pageStart"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/bibo/shortTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ontology/bibo/volume"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#has_chemical_shift_max"/>
+        <DataProperty IRI="#has_chemical_shift_min"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#has_fluid"/>
+        <DataProperty IRI="#has_tissue"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9) https://github.com/owlcs/owlapi -->
+

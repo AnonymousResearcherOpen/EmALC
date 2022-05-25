@@ -1,0 +1,28 @@
+
+MASK RATIO = 0.2
+
+Find 29 subclass axioms, 29 parsed
+Learned embedding: 1.000  <= 1.000, 1.000, 1.000
+Masked  embedding: 0.066  <= 0.197, 0.000, 0.000
+Oracle  embedding: 0.954  <= 0.931, 0.931, 1.000
+
+MASK RATIO = 0.4
+
+Find 29 subclass axioms, 29 parsed
+Learned embedding: 1.000  <= 1.000, 1.000, 1.000
+Masked  embedding: 0.063  <= 0.189, 0.000, 0.000
+Oracle  embedding: 0.954  <= 0.931, 0.931, 1.000
+
+MASK RATIO = 0.6
+
+Find 29 subclass axioms, 29 parsed
+Learned embedding: 1.000  <= 1.000, 1.000, 1.000
+Masked  embedding: 0.064  <= 0.191, 0.000, 0.000
+Oracle  embedding: 0.954  <= 0.931, 0.931, 1.000
+
+MASK RATIO = 0.8
+
+Find 29 subclass axioms, 29 parsed
+Learned embedding: 1.000  <= 1.000, 1.000, 1.000
+Masked  embedding: 0.063  <= 0.189, 0.000, 0.000
+Oracle  embedding: 0.954  <= 0.931, 0.931, 1.000

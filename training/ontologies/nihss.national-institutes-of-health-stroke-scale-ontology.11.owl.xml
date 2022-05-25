@@ -1,0 +1,1142 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://mre.zcu.cz/ontology/nihss.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://mre.zcu.cz/ontology/nihss.owl"
+     versionIRI="http://mre.zcu.cz/ontology/2016/09/nihss.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BestGaze"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestLanguage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Consciousness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysarthria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExtinctionAndInattention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FacialPalsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimbAtaxia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorArmLeft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorArmRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorLegLeft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MotorLegRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NIHStrokeScale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestGaze"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bestLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commands"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consciousness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dysarthria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#extinctionAndInattention"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#facialPalsy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#limbAtaxia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#motorArmLeft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#motorArmRight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#motorLegLeft"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#motorLegRight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#questions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sensory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#timepoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visual"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#avg"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#datetimeExam"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#explain"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#onlyTotalScoreAvailable"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#patientID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#score"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AFTER_02H"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AFTER_03M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AFTER_07D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AFTER_24H"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BASELINE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestGaze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestGaze_FORCED_DEVIATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestGaze_NORMAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestGaze_PARCIAL_GAZE_PALSY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestLanguage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestLanguage_GLOBAL_APHASIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestLanguage_MILD_TO_MODERATE_APHASIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestLanguage_NO_APHASIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BestLanguage_SEVERE_APHASIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commands"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commands_Both"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commands_NEITHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Commands_ONE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consciousness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consciousness_ALERT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consciousness_NOT_ALERT_MINOR_BY_MINOR_STIMULATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consciousness_NOT_ALERT_REQUIRES_REPEATED_STIMULATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Consciousness_UNRESPONSIVE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dysarthria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dysarthria_INTUBATED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dysarthria_MILD_TO_MODERATE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dysarthria_NORMAL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dysarthria_SEVERE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtinctionAndInattention"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtinctionAndInattention_HEMI_INATTENATION_OR_EXTINCTION_TO_MORE_THAN_ONE_MODALITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtinctionAndInattention_INATTENTION_OR_EXTINCTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExtinctionAndInattention_NO_EXTINCTION_AND_INATTENTION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialPalsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialPalsy_COMPLETE_PARALYSIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialPalsy_MINOR_PARALYSIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialPalsy_NORMAL_SYMMETRICAL_MOVEMENTS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FacialPalsy_PARTIAL_PARALYSIS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Instruction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interval"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimbAtaxia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimbAtaxia_ABSENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimbAtaxia_AMPUTATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimbAtaxia_PRESENT_IN_ONE_LIMB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LimbAtaxia_PRESENT_IN_TWO_LIMBS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_AMPUTATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_NO_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_NO_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_NO_MOVEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmLeft_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_AMPUTATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_NO_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_NO_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_NO_MOVEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorArmRight_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_AMPUTATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_NO_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_NO_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_NO_MOVEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegLeft_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_AMPUTATION"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_NO_DRIFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_NO_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_NO_MOVEMENT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MotorLegRight_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NIHStrokeScale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OTHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Questions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Questions_ANSWERS_BOTH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Questions_ANSWERS_NEITHER"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Questions_ANSWERS_ONE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensory_MILD_TO_MODERATE_SENSORY_LOSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensory_NO_SENSORY_LOSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sensory_SEVERAL_TO_TOTAL_SENSORY_LOSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_BILATERAL_HEMIANOPIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_COMPLETE_HEMIANOPIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_NO_VISUAL_LOSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual_PARTIAL_HEMIANOPIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/MTHU000270"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70182-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70183-9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70184-7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70185-4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70186-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70187-0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70188-8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70189-6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70190-4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70191-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70192-0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70193-8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70194-6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70195-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70196-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70967-5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70968-3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/450743008"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BestGaze"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestLanguage"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Commands"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Consciousness"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysarthria"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExtinctionAndInattention"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FacialPalsy"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimbAtaxia"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorArmLeft"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorArmRight"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorLegLeft"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MotorLegRight"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Questions"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensory"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visual"/>
+        <Class IRI="#Instruction"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#AFTER_02H"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#AFTER_03M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#AFTER_07D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#AFTER_24H"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#BASELINE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestGaze"/>
+        <NamedIndividual IRI="#BestGaze_FORCED_DEVIATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestGaze"/>
+        <NamedIndividual IRI="#BestGaze_NORMAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestGaze"/>
+        <NamedIndividual IRI="#BestGaze_PARCIAL_GAZE_PALSY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestLanguage"/>
+        <NamedIndividual IRI="#BestLanguage_GLOBAL_APHASIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestLanguage"/>
+        <NamedIndividual IRI="#BestLanguage_MILD_TO_MODERATE_APHASIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestLanguage"/>
+        <NamedIndividual IRI="#BestLanguage_NO_APHASIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BestLanguage"/>
+        <NamedIndividual IRI="#BestLanguage_SEVERE_APHASIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Commands"/>
+        <NamedIndividual IRI="#Commands_Both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Commands"/>
+        <NamedIndividual IRI="#Commands_NEITHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Commands"/>
+        <NamedIndividual IRI="#Commands_ONE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consciousness"/>
+        <NamedIndividual IRI="#Consciousness_ALERT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consciousness"/>
+        <NamedIndividual IRI="#Consciousness_NOT_ALERT_MINOR_BY_MINOR_STIMULATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consciousness"/>
+        <NamedIndividual IRI="#Consciousness_NOT_ALERT_REQUIRES_REPEATED_STIMULATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Consciousness"/>
+        <NamedIndividual IRI="#Consciousness_UNRESPONSIVE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dysarthria"/>
+        <NamedIndividual IRI="#Dysarthria_INTUBATED"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dysarthria"/>
+        <NamedIndividual IRI="#Dysarthria_MILD_TO_MODERATE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dysarthria"/>
+        <NamedIndividual IRI="#Dysarthria_NORMAL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dysarthria"/>
+        <NamedIndividual IRI="#Dysarthria_SEVERE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExtinctionAndInattention"/>
+        <NamedIndividual IRI="#ExtinctionAndInattention_HEMI_INATTENATION_OR_EXTINCTION_TO_MORE_THAN_ONE_MODALITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExtinctionAndInattention"/>
+        <NamedIndividual IRI="#ExtinctionAndInattention_INATTENTION_OR_EXTINCTION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExtinctionAndInattention"/>
+        <NamedIndividual IRI="#ExtinctionAndInattention_NO_EXTINCTION_AND_INATTENTION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FacialPalsy"/>
+        <NamedIndividual IRI="#FacialPalsy_COMPLETE_PARALYSIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FacialPalsy"/>
+        <NamedIndividual IRI="#FacialPalsy_MINOR_PARALYSIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FacialPalsy"/>
+        <NamedIndividual IRI="#FacialPalsy_NORMAL_SYMMETRICAL_MOVEMENTS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FacialPalsy"/>
+        <NamedIndividual IRI="#FacialPalsy_PARTIAL_PARALYSIS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LimbAtaxia"/>
+        <NamedIndividual IRI="#LimbAtaxia_ABSENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LimbAtaxia"/>
+        <NamedIndividual IRI="#LimbAtaxia_AMPUTATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LimbAtaxia"/>
+        <NamedIndividual IRI="#LimbAtaxia_PRESENT_IN_ONE_LIMB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LimbAtaxia"/>
+        <NamedIndividual IRI="#LimbAtaxia_PRESENT_IN_TWO_LIMBS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_AMPUTATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_NO_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_NO_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_NO_MOVEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="#MotorArmLeft_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_AMPUTATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_NO_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_NO_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_NO_MOVEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="#MotorArmRight_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_AMPUTATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_NO_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_NO_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_NO_MOVEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="#MotorLegLeft_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_AMPUTATION"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_NO_DRIFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_NO_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_NO_MOVEMENT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="#MotorLegRight_SOME_EFFORT_AGAINST_GRAVITY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Interval"/>
+        <NamedIndividual IRI="#OTHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Questions"/>
+        <NamedIndividual IRI="#Questions_ANSWERS_BOTH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Questions"/>
+        <NamedIndividual IRI="#Questions_ANSWERS_NEITHER"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Questions"/>
+        <NamedIndividual IRI="#Questions_ANSWERS_ONE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensory"/>
+        <NamedIndividual IRI="#Sensory_MILD_TO_MODERATE_SENSORY_LOSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensory"/>
+        <NamedIndividual IRI="#Sensory_NO_SENSORY_LOSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sensory"/>
+        <NamedIndividual IRI="#Sensory_SEVERAL_TO_TOTAL_SENSORY_LOSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual"/>
+        <NamedIndividual IRI="#Visual_BILATERAL_HEMIANOPIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual"/>
+        <NamedIndividual IRI="#Visual_COMPLETE_HEMIANOPIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual"/>
+        <NamedIndividual IRI="#Visual_NO_VISUAL_LOSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Visual"/>
+        <NamedIndividual IRI="#Visual_PARTIAL_HEMIANOPIA"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#BestGaze"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70187-0"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#BestLanguage"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70194-6"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Commands"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70186-2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Consciousness"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70184-7"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Dysarthria"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70195-3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ExtinctionAndInattention"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70196-1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#FacialPalsy"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70189-6"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Instruction"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/MTHU000270"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Interval"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70183-9"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#LimbAtaxia"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70192-0"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#MotorArmLeft"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70190-4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#MotorArmRight"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70967-5"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#MotorLegLeft"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70191-2"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#MotorLegRight"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70968-3"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#NIHStrokeScale"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70182-1"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#NIHStrokeScale"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/SNOMEDCT/450743008"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Questions"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70185-4"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Sensory"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70193-8"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Visual"/>
+        <NamedIndividual IRI="http://purl.bioontology.org/ontology/LNC/70188-8"/>
+    </SameIndividual>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#bestGaze"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#bestLanguage"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#commands"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#consciousness"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#dysarthria"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#extinctionAndInattention"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#facialPalsy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#limbAtaxia"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#motorArmLeft"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#motorArmRight"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#motorLegLeft"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#motorLegRight"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#questions"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#sensory"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#timepoint"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#visual"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bestGaze"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bestLanguage"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#commands"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consciousness"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dysarthria"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#extinctionAndInattention"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#facialPalsy"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#limbAtaxia"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#motorArmLeft"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#motorArmRight"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#motorLegLeft"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#motorLegRight"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#questions"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sensory"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#timepoint"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#visual"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bestGaze"/>
+        <Class IRI="#BestGaze"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bestLanguage"/>
+        <Class IRI="#BestLanguage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commands"/>
+        <Class IRI="#Commands"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consciousness"/>
+        <Class IRI="#Consciousness"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dysarthria"/>
+        <Class IRI="#Dysarthria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#extinctionAndInattention"/>
+        <Class IRI="#ExtinctionAndInattention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#facialPalsy"/>
+        <Class IRI="#FacialPalsy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#limbAtaxia"/>
+        <Class IRI="#LimbAtaxia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#motorArmLeft"/>
+        <Class IRI="#MotorArmLeft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#motorArmRight"/>
+        <Class IRI="#MotorArmRight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#motorLegLeft"/>
+        <Class IRI="#MotorLegLeft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#motorLegRight"/>
+        <Class IRI="#MotorLegRight"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#questions"/>
+        <Class IRI="#Questions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sensory"/>
+        <Class IRI="#Sensory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#timepoint"/>
+        <Class IRI="#Interval"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#visual"/>
+        <Class IRI="#Visual"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#bestGaze"/>
+        <ObjectProperty IRI="#bestLanguage"/>
+        <ObjectProperty IRI="#commands"/>
+        <ObjectProperty IRI="#consciousness"/>
+        <ObjectProperty IRI="#dysarthria"/>
+        <ObjectProperty IRI="#extinctionAndInattention"/>
+        <ObjectProperty IRI="#facialPalsy"/>
+        <ObjectProperty IRI="#limbAtaxia"/>
+        <ObjectProperty IRI="#motorArmLeft"/>
+        <ObjectProperty IRI="#motorArmRight"/>
+        <ObjectProperty IRI="#motorLegLeft"/>
+        <ObjectProperty IRI="#motorLegRight"/>
+        <ObjectProperty IRI="#questions"/>
+        <ObjectProperty IRI="#sensory"/>
+        <ObjectProperty IRI="#timepoint"/>
+        <ObjectProperty IRI="#visual"/>
+    </DisjointObjectProperties>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#avg"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#datetimeExam"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#explain"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#onlyTotalScoreAvailable"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#patientID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#score"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#avg"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#datetimeExam"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#explain"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#onlyTotalScoreAvailable"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#patientID"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#score"/>
+        <Class IRI="#NIHStrokeScale"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#avg"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#datetimeExam"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#explain"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#onlyTotalScoreAvailable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#patientID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#score"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#avg"/>
+        <DataProperty IRI="#datetimeExam"/>
+        <DataProperty IRI="#explain"/>
+        <DataProperty IRI="#patientID"/>
+        <DataProperty IRI="#score"/>
+    </DisjointDataProperties>
+    <HasKey>
+        <Class IRI="#NIHStrokeScale"/>
+        <DataProperty IRI="#datetimeExam"/>
+        <DataProperty IRI="#patientID"/>
+    </HasKey>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9) https://github.com/owlcs/owlapi -->
+
