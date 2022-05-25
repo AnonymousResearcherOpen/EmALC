@@ -14,7 +14,7 @@ Output of DF-ALC is the revised neural model output (/revised neural model param
 The input OWL ontology should be truncated into its $\mathcal{ALC}$ fragment, and then be normalized. 
 Run the following command with **JDK 1.8** under [the root of this directory](https://github.com/AnonymousResearcherOpen/DF-ALC/): 
 
-`java -jar Normalization.jar training/ontologies training/input`
+    java -jar Normalization.jar training/ontologies training/input
 
 The output of preprocessing is the files in 'training/input':
 
@@ -28,12 +28,14 @@ Note: The source code of 'Normalization.jar' and 'CQGenerator.jar' is in [normal
 ### Training
 
 The training and evaluation is in [training](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training), to train DF-ALC, run:
-`python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu`
+
+    python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu
 
 For evaluation, we randomly masked the ABox of the input ontology as the initial output of the neural models, so can evaluate the performance of DF-ALC when meeting with different distributions. The generation of the masked ABox (imitation of the output of a neural model) is in [Evaluation.MaskABox](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/Evaluation.py), the masked ABox and the origional ABox are saved in '--save_path'. And the mask rate is designated by '--mask_rate'. While '--alpha' is the threshold of truth value for the transformation between fuzzy ALC and crisp ALC. And the masked value is in the range of (1-alpha,alpha). The model also support using GPU, with '--device_name cuda:0'.
 
 For comparison with the Logical Tensor Network, run:
-`python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu --model_name LTN`
+
+    python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu --model_name LTN
 
 
 ### Evaluation
@@ -43,22 +45,24 @@ The revised results of D-ALC and LTN are evaluated under the semantics of fuzzy 
 To do the conjuncive query answering (CQA) evaluation, firstly,
 generate the conjunctive queries and answers:
 
-`java -jar CQGenerator.jar training/ontologies training/input`
+    java -jar CQGenerator.jar training/ontologies training/input
 
 Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/CQAnswering_evaluation.ipynb) to generate the CQA evaluation results.
 
 ## Dependencies
-> JDK 1.8
-> python 3.7.0
-> torch 1.8.1
-> python-csv 0.0.13
-> matplotlib 3.3.2
-> pickle 4.0
-> numpy 1.21.4
-> pandas 1.1.3
-> pyparsing 3.0.6
-> loguru 0.6.0
+
+    JDK 1.8
+    python 3.7.0
+    torch 1.8.1
+    python-csv 0.0.13
+    matplotlib 3.3.2
+    pickle 4.0
+    numpy 1.21.4
+    pandas 1.1.3
+    pyparsing 3.0.6
+    loguru 0.6.0
 ## Results
+
 Results of DF-ALC and LTN are output in [output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/output/), [product_output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/product_output/), respectively. We zipped the training results in [results](https://drive.google.com/drive/folders/1ob0RVM6GwAQvgew9yZTrCfNrfvbWFKRb?usp=sharing).
 
 

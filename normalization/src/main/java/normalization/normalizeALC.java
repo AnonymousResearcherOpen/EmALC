@@ -92,6 +92,40 @@ public class normalizeALC {
 
     }
 
+    private  static void save_tbox(OWLOntology o, String ontoName) throws IOException{
+        System.out.println("Processing " + ontoName);
+        System.out.println("Find " + o.getTBoxAxioms(Imports.EXCLUDED).size() + " TBox axioms");
+
+        HashSet<String> axioms = new HashSet<String>();
+        for (OWLAxiom axiom : o.getTBoxAxioms(Imports.EXCLUDED)) {
+            if (axiom.getAxiomType() == AxiomType.SUBCLASS_OF) {
+                axioms.add(axiom.toString());
+            } else if (axiom.getAxiomType() == AxiomType.EQUIVALENT_CLASSES) {
+                for (OWLSubClassOfAxiom subaxiom : ((OWLEquivalentClassesAxiom) axiom).asOWLSubClassOfAxioms()) {
+                    axioms.add(subaxiom.toString());
+                }
+            } else if (axiom.getAxiomType() == AxiomType.DISJOINT_CLASSES) {
+                for (OWLSubClassOfAxiom subaxiom : ((OWLDisjointClassesAxiom) axiom).asOWLSubClassOfAxioms()) {
+                    axioms.add(subaxiom.toString());
+                }
+            } else if (axiom.getAxiomType() == AxiomType.OBJECT_PROPERTY_RANGE) {
+                // Uncomment this to include range
+                // axioms.add(((OWLObjectPropertyRangeAxiom) axiom).asOWLSubClassOfAxiom().toString());
+            } else if (axiom.getAxiomType() == AxiomType.OBJECT_PROPERTY_DOMAIN) {
+                 axioms.add(((OWLObjectPropertyDomainAxiom) axiom).asOWLSubClassOfAxiom().toString());
+            } else {
+                System.out.println("Unused TBox axiom:");
+                System.out.println("  " + axiom);
+            }
+        }
+        System.out.println("Generate " + axioms.size() + " subclassof axioms");
+        FileWriter outputFile = new FileWriter(targetPath + ontoName + "_subclassaxioms.txt");
+        for (String s: axioms) {
+            outputFile.write(s + '\n');
+        }
+        outputFile.close();
+    }
+
     private static void extract_annotations(OWLOntology ont) throws IOException {
         ArrayList<String> ann_axioms = new ArrayList<>();
 
@@ -242,6 +276,8 @@ public class normalizeALC {
                 System.out.println("original concept amount: " + o.getClassesInSignature().size());
                 System.out.println("original individual amount: " + o.getIndividualsInSignature().size());
 
+                // Save TBox axioms
+                save_tbox(o,ontology_file.getName());
                 // (Optional) Infer disjoint axioms and assertions.
                 if (inferflag) {
                     infer(o);
