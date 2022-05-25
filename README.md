@@ -40,7 +40,7 @@ For comparison with the Logical Tensor Network, run:
 
 ### Evaluation
 
-The revised results of D-ALC and LTN are evaluated under the semantics of fuzzy first-order logic, with codes in [training/evaluation](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/). To compute the successful rate, run [run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/run.ipynb)
+The revised results of DF-ALC and LTN are evaluated under the semantics of fuzzy first-order logic, with codes in [training/evaluation](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/). To compute the successful rate, run [run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/run.ipynb)
 
 To do the conjunctive query answering (CQA) evaluation, firstly,
 generate the conjunctive queries and answers:
