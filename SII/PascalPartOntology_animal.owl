@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- partOf -->
+
+
+    <ObjectProperty rdf:about="partOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- animal_wing -->
+
+
+    <Class rdf:about="animal_wing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="bird"/>
+    </Class>
+    
+
+
+    <!-- arm -->
+
+
+    <Class rdf:about="arm">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- beak -->
+
+
+    <Class rdf:about="beak">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="bird"/>
+    </Class>
+    
+
+
+    <!-- bird -->
+
+
+    <Class rdf:about="bird">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="eye"/>
+        <disjointWith rdf:resource="head"/>
+        <disjointWith rdf:resource="leg"/>
+        <disjointWith rdf:resource="neck"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- cat -->
+
+
+    <Class rdf:about="cat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="ear"/>
+        <disjointWith rdf:resource="eye"/>
+        <disjointWith rdf:resource="head"/>
+        <disjointWith rdf:resource="leg"/>
+        <disjointWith rdf:resource="neck"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- cow -->
+
+
+    <Class rdf:about="cow">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="ear"/>
+        <disjointWith rdf:resource="eye"/>
+        <disjointWith rdf:resource="head"/>
+        <disjointWith rdf:resource="horn"/>
+        <disjointWith rdf:resource="leg"/>
+        <disjointWith rdf:resource="muzzle"/>
+        <disjointWith rdf:resource="neck"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- dog -->
+
+
+    <Class rdf:about="dog">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="ear"/>
+        <disjointWith rdf:resource="eye"/>
+        <disjointWith rdf:resource="head"/>
+        <disjointWith rdf:resource="leg"/>
+        <disjointWith rdf:resource="muzzle"/>
+        <disjointWith rdf:resource="neck"/>
+        <disjointWith rdf:resource="nose"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- ear -->
+
+
+    <Class rdf:about="ear">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="horse"/>
+        <disjointWith rdf:resource="person"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- ebrow -->
+
+
+    <Class rdf:about="ebrow">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- eye -->
+
+
+    <Class rdf:about="eye">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="horse"/>
+        <disjointWith rdf:resource="person"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- foot -->
+
+
+    <Class rdf:about="foot">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- hair -->
+
+
+    <Class rdf:about="hair">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- hand -->
+
+
+    <Class rdf:about="hand">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- head -->
+
+
+    <Class rdf:about="head">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="horse"/>
+        <disjointWith rdf:resource="person"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- hoof -->
+
+
+    <Class rdf:about="hoof">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="horse"/>
+    </Class>
+    
+
+
+    <!-- horn -->
+
+
+    <Class rdf:about="horn">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- horse -->
+
+
+    <Class rdf:about="horse">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="leg"/>
+        <disjointWith rdf:resource="muzzle"/>
+        <disjointWith rdf:resource="neck"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- leg -->
+
+
+    <Class rdf:about="leg">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- mouth -->
+
+
+    <Class rdf:about="mouth">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- muzzle -->
+
+
+    <Class rdf:about="muzzle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- neck -->
+
+
+    <Class rdf:about="neck">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+        <disjointWith rdf:resource="sheep"/>
+    </Class>
+    
+
+
+    <!-- nose -->
+
+
+    <Class rdf:about="nose">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="person"/>
+    </Class>
+    
+
+
+    <!-- person -->
+
+
+    <Class rdf:about="person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- sheep -->
+
+
+    <Class rdf:about="sheep">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="tail"/>
+        <disjointWith rdf:resource="torso"/>
+    </Class>
+    
+
+
+    <!-- tail -->
+
+
+    <Class rdf:about="tail">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- torso -->
+
+
+    <Class rdf:about="torso">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="bird"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="animal_wing"/>
+                    <rdf:Description rdf:about="beak"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="cat"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="cow"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="horn"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="muzzle"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="dog"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="muzzle"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="nose"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="horse"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="hoof"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="muzzle"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="person"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="arm"/>
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="ebrow"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="foot"/>
+                    <rdf:Description rdf:about="hair"/>
+                    <rdf:Description rdf:about="hand"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="mouth"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="nose"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="sheep"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="ear"/>
+                    <rdf:Description rdf:about="eye"/>
+                    <rdf:Description rdf:about="head"/>
+                    <rdf:Description rdf:about="horn"/>
+                    <rdf:Description rdf:about="leg"/>
+                    <rdf:Description rdf:about="muzzle"/>
+                    <rdf:Description rdf:about="neck"/>
+                    <rdf:Description rdf:about="tail"/>
+                    <rdf:Description rdf:about="torso"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.3.2017-11-04T21:44:22Z) https://github.com/owlcs/owlapi/ -->
+
+

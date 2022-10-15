@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- partOf -->
+
+
+    <ObjectProperty rdf:about="partOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- aeroplane -->
+
+
+    <Class rdf:about="aeroplane">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="artifact_wing"/>
+        <disjointWith rdf:resource="body"/>
+        <disjointWith rdf:resource="engine"/>
+        <disjointWith rdf:resource="stern"/>
+        <disjointWith rdf:resource="wheel"/>
+    </Class>
+    
+
+
+    <!-- artifact_wing -->
+
+
+    <Class rdf:about="artifact_wing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- bicycle -->
+
+
+    <Class rdf:about="bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="chain_wheel"/>
+        <disjointWith rdf:resource="handlebar"/>
+        <disjointWith rdf:resource="headlight"/>
+        <disjointWith rdf:resource="saddle"/>
+        <disjointWith rdf:resource="wheel"/>
+    </Class>
+    
+
+
+    <!-- boat -->
+
+
+    <Class rdf:about="boat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- body -->
+
+
+    <Class rdf:about="body">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- bodywork -->
+
+
+    <Class rdf:about="bodywork">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="bus"/>
+        <disjointWith rdf:resource="car"/>
+    </Class>
+    
+
+
+    <!-- bus -->
+
+
+    <Class rdf:about="bus">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="door"/>
+        <disjointWith rdf:resource="headlight"/>
+        <disjointWith rdf:resource="license_plate"/>
+        <disjointWith rdf:resource="mirror"/>
+        <disjointWith rdf:resource="wheel"/>
+        <disjointWith rdf:resource="window"/>
+    </Class>
+    
+
+
+    <!-- car -->
+
+
+    <Class rdf:about="car">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="door"/>
+        <disjointWith rdf:resource="headlight"/>
+        <disjointWith rdf:resource="license_plate"/>
+        <disjointWith rdf:resource="mirror"/>
+        <disjointWith rdf:resource="wheel"/>
+        <disjointWith rdf:resource="window"/>
+    </Class>
+    
+
+
+    <!-- chain_wheel -->
+
+
+    <Class rdf:about="chain_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- coach -->
+
+
+    <Class rdf:about="coach">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="train"/>
+    </Class>
+    
+
+
+    <!-- door -->
+
+
+    <Class rdf:about="door">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- engine -->
+
+
+    <Class rdf:about="engine">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- handlebar -->
+
+
+    <Class rdf:about="handlebar">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="motorbike"/>
+    </Class>
+    
+
+
+    <!-- headlight -->
+
+
+    <Class rdf:about="headlight">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="motorbike"/>
+        <disjointWith rdf:resource="train"/>
+    </Class>
+    
+
+
+    <!-- license_plate -->
+
+
+    <Class rdf:about="license_plate">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- locomotive -->
+
+
+    <Class rdf:about="locomotive">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="train"/>
+    </Class>
+    
+
+
+    <!-- mirror -->
+
+
+    <Class rdf:about="mirror">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- motorbike -->
+
+
+    <Class rdf:about="motorbike">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <disjointWith rdf:resource="saddle"/>
+        <disjointWith rdf:resource="wheel"/>
+    </Class>
+    
+
+
+    <!-- saddle -->
+
+
+    <Class rdf:about="saddle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- stern -->
+
+
+    <Class rdf:about="stern">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- train -->
+
+
+    <Class rdf:about="train">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- wheel -->
+
+
+    <Class rdf:about="wheel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- window -->
+
+
+    <Class rdf:about="window">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="aeroplane"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="artifact_wing"/>
+                    <rdf:Description rdf:about="body"/>
+                    <rdf:Description rdf:about="engine"/>
+                    <rdf:Description rdf:about="stern"/>
+                    <rdf:Description rdf:about="wheel"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="bicycle"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="chain_wheel"/>
+                    <rdf:Description rdf:about="handlebar"/>
+                    <rdf:Description rdf:about="headlight"/>
+                    <rdf:Description rdf:about="saddle"/>
+                    <rdf:Description rdf:about="wheel"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="bus"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="bodywork"/>
+                    <rdf:Description rdf:about="door"/>
+                    <rdf:Description rdf:about="headlight"/>
+                    <rdf:Description rdf:about="license_plate"/>
+                    <rdf:Description rdf:about="mirror"/>
+                    <rdf:Description rdf:about="wheel"/>
+                    <rdf:Description rdf:about="window"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="car"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="bodywork"/>
+                    <rdf:Description rdf:about="door"/>
+                    <rdf:Description rdf:about="headlight"/>
+                    <rdf:Description rdf:about="license_plate"/>
+                    <rdf:Description rdf:about="mirror"/>
+                    <rdf:Description rdf:about="wheel"/>
+                    <rdf:Description rdf:about="window"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="motorbike"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="handlebar"/>
+                    <rdf:Description rdf:about="headlight"/>
+                    <rdf:Description rdf:about="saddle"/>
+                    <rdf:Description rdf:about="wheel"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="partOf"/>
+        <someValuesFrom rdf:resource="train"/>
+        <rdfs:subClassOf>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="coach"/>
+                    <rdf:Description rdf:about="headlight"/>
+                    <rdf:Description rdf:about="locomotive"/>
+                </unionOf>
+            </Class>
+        </rdfs:subClassOf>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.3.2017-11-04T21:44:22Z) https://github.com/owlcs/owlapi/ -->
+
+
