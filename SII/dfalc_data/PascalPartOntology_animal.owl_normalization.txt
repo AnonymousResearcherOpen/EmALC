@@ -1,0 +1,279 @@
+1|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_1|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_1|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_1|0 0 
+1|http://www.w3.org/2002/07/head	definer_1|0 0 
+1|http://www.w3.org/2002/07/neck	definer_1|0 0 
+1|http://www.w3.org/2002/07/tail	definer_1|0 0 
+1|http://www.w3.org/2002/07/eye	definer_1|0 0 
+1|http://www.w3.org/2002/07/ear	definer_1|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_1|0 0 
+3|definer_2	definer_1	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat	definer_2|0 0 
+3|definer_2	definer_13	http://www.w3.org/2002/07/torso|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat	definer_2|0 0 
+3|definer_22	http://www.w3.org/2002/07/torso	definer_3|0 0 0 
+1|http://www.w3.org/2002/07/ebrow	definer_3|0 0 
+1|http://www.w3.org/2002/07/hair	definer_3|0 0 
+1|http://www.w3.org/2002/07/foot	definer_3|0 0 
+1|http://www.w3.org/2002/07/hand	definer_3|0 0 
+1|http://www.w3.org/2002/07/leg	definer_3|0 0 
+1|http://www.w3.org/2002/07/mouth	definer_3|0 0 
+1|http://www.w3.org/2002/07/arm	definer_3|0 0 
+1|http://www.w3.org/2002/07/head	definer_3|0 0 
+1|http://www.w3.org/2002/07/neck	definer_3|0 0 
+1|http://www.w3.org/2002/07/eye	definer_3|0 0 
+1|http://www.w3.org/2002/07/ear	definer_3|0 0 
+1|http://www.w3.org/2002/07/nose	definer_3|0 0 
+3|definer_4	definer_3	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/tail	definer_3|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_3|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog	definer_4|0 0 
+3|definer_4	definer_17	http://www.w3.org/2002/07/torso|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog	definer_4|0 0 
+3|definer_22	http://www.w3.org/2002/07/torso	definer_5|0 0 0 
+1|http://www.w3.org/2002/07/ebrow	definer_5|0 0 
+1|http://www.w3.org/2002/07/hair	definer_5|0 0 
+1|http://www.w3.org/2002/07/foot	definer_5|0 0 
+1|http://www.w3.org/2002/07/hand	definer_5|0 0 
+1|http://www.w3.org/2002/07/leg	definer_5|0 0 
+1|http://www.w3.org/2002/07/mouth	definer_5|0 0 
+1|http://www.w3.org/2002/07/arm	definer_5|0 0 
+1|http://www.w3.org/2002/07/head	definer_5|0 0 
+1|http://www.w3.org/2002/07/neck	definer_5|0 0 
+1|http://www.w3.org/2002/07/eye	definer_5|0 0 
+1|http://www.w3.org/2002/07/ear	definer_5|0 0 
+1|http://www.w3.org/2002/07/nose	definer_5|0 0 
+3|definer_6	definer_5	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person	definer_6|0 0 
+3|definer_6	definer_21	http://www.w3.org/2002/07/torso|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person	definer_6|0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_7|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_7|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_7|0 0 
+1|http://www.w3.org/2002/07/head	definer_7|0 0 
+1|http://www.w3.org/2002/07/neck	definer_7|0 0 
+1|http://www.w3.org/2002/07/tail	definer_7|0 0 
+1|http://www.w3.org/2002/07/eye	definer_7|0 0 
+1|http://www.w3.org/2002/07/ear	definer_7|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_7|0 0 
+3|definer_8	definer_7	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_7|0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow	definer_8|0 0 
+3|definer_8	definer_19	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow	definer_8|0 0 
+3|definer_24	http://www.w3.org/2002/07/torso	definer_9|0 0 0 
+1|http://www.w3.org/2002/07/animal_wing	definer_9|0 0 
+1|http://www.w3.org/2002/07/leg	definer_9|0 0 
+1|http://www.w3.org/2002/07/head	definer_9|0 0 
+1|http://www.w3.org/2002/07/neck	definer_9|0 0 
+1|http://www.w3.org/2002/07/tail	definer_9|0 0 
+1|http://www.w3.org/2002/07/eye	definer_9|0 0 
+1|http://www.w3.org/2002/07/beak	definer_9|0 0 
+3|definer_10	definer_9	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird	definer_10|0 0 
+3|definer_10	definer_23	http://www.w3.org/2002/07/torso|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird	definer_10|0 0 
+3|definer_28	definer_11	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_11|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_11|0 0 
+1|http://www.w3.org/2002/07/head	definer_11|0 0 
+1|http://www.w3.org/2002/07/neck	definer_11|0 0 
+1|http://www.w3.org/2002/07/tail	definer_11|0 0 
+1|http://www.w3.org/2002/07/eye	definer_11|0 0 
+1|http://www.w3.org/2002/07/ear	definer_11|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_11|0 0 
+3|definer_12	definer_11	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse	definer_12|0 0 
+3|definer_12	definer_27	http://www.w3.org/2002/07/torso|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse	definer_12|0 0 
+3|definer_28	definer_13	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_13|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_13|0 0 
+1|http://www.w3.org/2002/07/head	definer_13|0 0 
+1|http://www.w3.org/2002/07/neck	definer_13|0 0 
+1|http://www.w3.org/2002/07/tail	definer_13|0 0 
+1|http://www.w3.org/2002/07/eye	definer_13|0 0 
+1|http://www.w3.org/2002/07/ear	definer_13|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_13|0 0 
+3|definer_14	definer_13	http://www.w3.org/2002/07/torso|0 0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_15|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_15|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_15|0 0 
+1|http://www.w3.org/2002/07/head	definer_15|0 0 
+1|http://www.w3.org/2002/07/neck	definer_15|0 0 
+1|http://www.w3.org/2002/07/tail	definer_15|0 0 
+1|http://www.w3.org/2002/07/eye	definer_15|0 0 
+1|http://www.w3.org/2002/07/ear	definer_15|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_15|0 0 
+3|definer_16	definer_15	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_15|0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep	definer_16|0 0 
+3|definer_16	definer_25	http://www.w3.org/2002/07/torso|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep	definer_16|0 0 
+3|definer_22	http://www.w3.org/2002/07/torso	definer_17|0 0 0 
+1|http://www.w3.org/2002/07/ebrow	definer_17|0 0 
+1|http://www.w3.org/2002/07/hair	definer_17|0 0 
+1|http://www.w3.org/2002/07/foot	definer_17|0 0 
+1|http://www.w3.org/2002/07/hand	definer_17|0 0 
+1|http://www.w3.org/2002/07/leg	definer_17|0 0 
+1|http://www.w3.org/2002/07/mouth	definer_17|0 0 
+1|http://www.w3.org/2002/07/arm	definer_17|0 0 
+1|http://www.w3.org/2002/07/head	definer_17|0 0 
+1|http://www.w3.org/2002/07/neck	definer_17|0 0 
+1|http://www.w3.org/2002/07/eye	definer_17|0 0 
+1|http://www.w3.org/2002/07/ear	definer_17|0 0 
+1|http://www.w3.org/2002/07/nose	definer_17|0 0 
+3|definer_18	definer_17	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/tail	definer_17|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_17|0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_19|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_19|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_19|0 0 
+1|http://www.w3.org/2002/07/head	definer_19|0 0 
+1|http://www.w3.org/2002/07/neck	definer_19|0 0 
+1|http://www.w3.org/2002/07/tail	definer_19|0 0 
+1|http://www.w3.org/2002/07/eye	definer_19|0 0 
+1|http://www.w3.org/2002/07/ear	definer_19|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_19|0 0 
+3|definer_20	definer_19	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_19|0 0 
+3|definer_28	definer_21	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_21|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_21|0 0 
+1|http://www.w3.org/2002/07/head	definer_21|0 0 
+1|http://www.w3.org/2002/07/neck	definer_21|0 0 
+1|http://www.w3.org/2002/07/tail	definer_21|0 0 
+1|http://www.w3.org/2002/07/eye	definer_21|0 0 
+1|http://www.w3.org/2002/07/ear	definer_21|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_21|0 0 
+3|definer_22	definer_21	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/ebrow	definer_21|0 0 
+1|http://www.w3.org/2002/07/hair	definer_21|0 0 
+1|http://www.w3.org/2002/07/foot	definer_21|0 0 
+1|http://www.w3.org/2002/07/hand	definer_21|0 0 
+1|http://www.w3.org/2002/07/mouth	definer_21|0 0 
+1|http://www.w3.org/2002/07/arm	definer_21|0 0 
+1|http://www.w3.org/2002/07/nose	definer_21|0 0 
+3|definer_28	definer_23	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_23|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_23|0 0 
+1|http://www.w3.org/2002/07/head	definer_23|0 0 
+1|http://www.w3.org/2002/07/neck	definer_23|0 0 
+1|http://www.w3.org/2002/07/tail	definer_23|0 0 
+1|http://www.w3.org/2002/07/eye	definer_23|0 0 
+1|http://www.w3.org/2002/07/ear	definer_23|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_23|0 0 
+3|definer_24	definer_23	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/animal_wing	definer_23|0 0 
+1|http://www.w3.org/2002/07/beak	definer_23|0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_25|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_25|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_25|0 0 
+1|http://www.w3.org/2002/07/head	definer_25|0 0 
+1|http://www.w3.org/2002/07/neck	definer_25|0 0 
+1|http://www.w3.org/2002/07/tail	definer_25|0 0 
+1|http://www.w3.org/2002/07/eye	definer_25|0 0 
+1|http://www.w3.org/2002/07/ear	definer_25|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_25|0 0 
+3|definer_26	definer_25	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_25|0 0 
+3|definer_28	http://www.w3.org/2002/07/torso	definer_27|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_27|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_27|0 0 
+1|http://www.w3.org/2002/07/head	definer_27|0 0 
+1|http://www.w3.org/2002/07/neck	definer_27|0 0 
+1|http://www.w3.org/2002/07/tail	definer_27|0 0 
+1|http://www.w3.org/2002/07/eye	definer_27|0 0 
+1|http://www.w3.org/2002/07/ear	definer_27|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_27|0 0 
+3|definer_28	definer_27	http://www.w3.org/2002/07/torso|0 0 0 

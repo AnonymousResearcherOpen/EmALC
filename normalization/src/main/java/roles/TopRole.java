@@ -7,10 +7,7 @@ package roles;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-/**
- *
- * @author Yizheng
- */
+
 public class  TopRole extends RoleExpression {
 
 	private static final TopRole TR = new TopRole();

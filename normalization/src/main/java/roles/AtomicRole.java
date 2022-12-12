@@ -9,10 +9,7 @@ import java.util.*;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-/**
- *
- * @author Yizheng
- */
+
 public class AtomicRole extends RoleExpression implements Comparable<AtomicRole> {
 	
 	public AtomicRole() {

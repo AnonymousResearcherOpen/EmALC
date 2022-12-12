@@ -27,10 +27,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-/**
- *
- * @author Xuan Wu
- */
+
 public class normalizeALC {
     public static String dirPath = "D:\\Tasks\\DF-ALC\\ontologies\\";
     public static String targetPath = "training\\input\\";

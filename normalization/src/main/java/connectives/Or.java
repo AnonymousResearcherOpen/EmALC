@@ -17,10 +17,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-/**
- *
- * @author Yizheng
- */
+
 public class Or extends Formula {
 
 	public Or() {

@@ -13,10 +13,7 @@ import concepts.AtomicConcept;
 import formula.Formula;
 import roles.AtomicRole;
 
-/**
- *
- * @author Yizheng
- */
+
 public class Equivalence extends Formula {
 	
 	public Equivalence() {

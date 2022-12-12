@@ -15,10 +15,7 @@ import java.util.*;
 
 import concepts.AtomicConcept;
 
-/**
- *
- * @author Yizheng
- */
+
 public class And extends Formula {
 
 	public And() {

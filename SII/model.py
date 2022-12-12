@@ -1,10 +1,6 @@
-
-from importlib.metadata import requires
-from urllib import request
 import numpy as np
 import torch
 import torch.nn as nn
-from torch.autograd import Variable
 
     
 class DFALC(nn.Module):
@@ -14,14 +10,12 @@ class DFALC(nn.Module):
         self.conceptSize, self.roleSize = conceptSize, roleSize
         self.device = device
         self.cEmb = nn.Parameter(torch.tensor(cEmb_init))
-        self.rEmb = torch.tensor(rEmb_init).to(device)
+        self.rEmb = nn.Parameter(torch.tensor(rEmb_init))
         self.relu = torch.nn.ReLU()
         # self.c_mask, self.r_mask = self.get_mask()
         self.logic_name = name
-        self.softmax = torch.nn.Softmax(0)
         self.epsilon = 1e-2
         self.p=2
-        self.alpha = params["alpha"]
 
 
     def to_sparse(self, A):
@@ -102,14 +96,11 @@ class DFALC(nn.Module):
         # print('here left: ',left.shape)
         # print("here right: ", right.shape)
         
-        loss, lefte, righte, b_c_mask, b_r_mask = None, None, None, None, None
+        loss, lefte, righte, loss1 = None, None, None, None
         
         self.cEmb[-1,:].detach().masked_fill_(self.cEmb[-1,:].gt(0.0),1.0)
         self.cEmb[-2,:].detach().masked_fill_(self.cEmb[-2,:].lt(1),0.0)
-        # self.cEmb[:-2,:].detach().masked_fill_(self.cEmb[:-2,:].gt(0.9),1.0)
-        # self.cEmb[:-2,:].detach().masked_fill_(self.cEmb[:-2,:].lt(0.1),0.0)
-        # cEmb = self.softmax(self.cEmb)
-        loss1 = None
+        
         
         if atype == 0:
             lefte = self.neg(self.cEmb[left],-negf[:,0])
@@ -126,9 +117,9 @@ class DFALC(nn.Module):
         elif atype == 2:
             lefte = self.neg(self.cEmb[left], negf[:,0])
             shape = lefte.shape
-            righte = self.t_cnorm(self.neg(self.cEmb[right[:,0]],negf[:,1]), self.neg(self.cEmb[right[:,1]],negf[:,2]))
+            righte = self.t_norm(self.neg(self.cEmb[right[:,0]],negf[:,1]), self.neg(self.cEmb[right[:,1]],negf[:,2]))
             loss1 = -lefte*(self.relu(lefte-righte).detach())
-            
+
         elif atype == 3:
             lefte = self.neg(self.cEmb[left], negf[:,0])
             shape = lefte.shape
@@ -147,9 +138,9 @@ class DFALC(nn.Module):
             lefte2 = self.neg(self.cEmb[left[:,1]], negf[:,0])
             righte2 = torch.matmul(righte, self.rEmb[0])
             righte1 = torch.matmul(self.rEmb[0],lefte2.T).squeeze(1)
-            loss1 = -lefte2*((self.relu(torch.max(self.rEmb[left[:,0]],1).values-self.alpha)*(1-self.relu(lefte2-self.alpha))*self.relu(righte2-self.alpha)).detach()) \
-                    -righte*((self.relu(lefte-self.alpha)*(1-self.relu(righte-self.alpha))).detach())
-            
+            loss1 = -lefte2*((self.relu(torch.max(self.rEmb[left[:,0]],1).values-0.9)*(1-self.relu(lefte2-0.9))*self.relu(righte2-0.9)).detach()) \
+                    -righte*((self.relu(lefte-0.9)*(1-self.relu(righte-0.9))).detach())
+
         elif atype == 6:
             righte = self.neg(self.cEmb[right], negf[:,1])
             shape = righte.shape
@@ -157,9 +148,16 @@ class DFALC(nn.Module):
 
         # print("lefte: ", lefte)
         # print("righte: ", righte)
-        # print("annex loss: ",torch.mean(self.L2(self.cEmb),0))
-        # loss = self.HierarchyLoss(lefte, righte) + torch.sum(self.relu(torch.ones(self.cEmb.shape[1]).to(device)-self.params["norm_rate"]*torch.sum(self.cEmb,0)))+ torch.sum(torch.relu(torch.ones(self.cEmb.shape[0]).to(device)-self.params["norm_rate2"]*torch.sum(self.cEmb,1)))
-        # loss = self.L1(self.relu(lefte-righte))
-        if loss1 == None:
-            return self.HierarchyLoss(lefte, righte)
-        return torch.mean(torch.sum(loss1,1))
+        # print("r: ", torch.max(self.rEmb[left[:,0]],1).values)
+        # print("lefte2: ", lefte2)
+        # print("righte2: ", righte2)
+        # print("righte1: ", righte1)
+        # print("loss1: ", loss1)
+        # print("atype: ",atype)
+        loss = self.HierarchyLoss(lefte, righte)
+        if loss1 != None:
+            return loss + torch.mean(torch.sum(loss1,1))
+        return loss
+        # print("loss: ", self.relu(lefte-righte)+loss1)
+            
+        # return torch.mean(torch.sum(self.relu(lefte-righte),1))

@@ -30,10 +30,7 @@ import org.semanticweb.owlapi.apibinding.OWLManager;
 import uk.ac.manchester.cs.owl.owlapi.*;
 
 
-/**
- *
- * @author Yizheng & Xuan Wu
- */
+
 public class Converter {
 	public Map<String, Formula> objectMap;
 	public Converter() {

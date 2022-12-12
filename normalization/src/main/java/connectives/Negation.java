@@ -8,10 +8,7 @@ package connectives;
 import concepts.ConceptExpression;
 import formula.Formula;
 
-/**
- *
- * @author Yizheng
- */
+
 public class Negation extends ConceptExpression {
 
 	public Negation() {

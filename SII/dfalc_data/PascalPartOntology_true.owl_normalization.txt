@@ -1,0 +1,273 @@
+1|http://www.w3.org/2002/07/chair	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/diningtable	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/handlebar	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/window	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/engine	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird	definer_2|0 0 
+3|definer_2	definer_1	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/animal_wing	definer_1|0 0 
+1|http://www.w3.org/2002/07/leg	definer_1|0 0 
+1|http://www.w3.org/2002/07/head	definer_1|0 0 
+1|http://www.w3.org/2002/07/neck	definer_1|0 0 
+1|http://www.w3.org/2002/07/tail	definer_1|0 0 
+1|http://www.w3.org/2002/07/eye	definer_1|0 0 
+1|http://www.w3.org/2002/07/beak	definer_1|0 0 
+1|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/artifact_wing	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/pot	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/stern	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/saddle	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/screen|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep	definer_4|0 0 
+3|definer_4	definer_3	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_3|0 0 
+1|http://www.w3.org/2002/07/leg	definer_3|0 0 
+1|http://www.w3.org/2002/07/head	definer_3|0 0 
+1|http://www.w3.org/2002/07/neck	definer_3|0 0 
+1|http://www.w3.org/2002/07/tail	definer_3|0 0 
+1|http://www.w3.org/2002/07/eye	definer_3|0 0 
+1|http://www.w3.org/2002/07/ear	definer_3|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_3|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bicycle	definer_6|0 0 
+3|definer_6	definer_5	http://www.w3.org/2002/07/wheel|0 0 0 
+1|http://www.w3.org/2002/07/headlight	definer_5|0 0 
+1|http://www.w3.org/2002/07/handlebar	definer_5|0 0 
+1|http://www.w3.org/2002/07/saddle	definer_5|0 0 
+1|http://www.w3.org/2002/07/chain_wheel	definer_5|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bus	definer_8|0 0 
+3|definer_8	definer_7	http://www.w3.org/2002/07/window|0 0 0 
+1|http://www.w3.org/2002/07/mirror	definer_7|0 0 
+1|http://www.w3.org/2002/07/bodywork	definer_7|0 0 
+1|http://www.w3.org/2002/07/license_plate	definer_7|0 0 
+1|http://www.w3.org/2002/07/door	definer_7|0 0 
+1|http://www.w3.org/2002/07/wheel	definer_7|0 0 
+1|http://www.w3.org/2002/07/headlight	definer_7|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/motorbike	definer_10|0 0 
+3|definer_10	definer_9	http://www.w3.org/2002/07/wheel|0 0 0 
+1|http://www.w3.org/2002/07/headlight	definer_9|0 0 
+1|http://www.w3.org/2002/07/handlebar	definer_9|0 0 
+1|http://www.w3.org/2002/07/saddle	definer_9|0 0 
+1|http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/screen	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/motorbike	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/background	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/mirror	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/sofa	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow	definer_12|0 0 
+3|definer_12	definer_11	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/horn	definer_11|0 0 
+1|http://www.w3.org/2002/07/leg	definer_11|0 0 
+1|http://www.w3.org/2002/07/head	definer_11|0 0 
+1|http://www.w3.org/2002/07/neck	definer_11|0 0 
+1|http://www.w3.org/2002/07/tail	definer_11|0 0 
+1|http://www.w3.org/2002/07/eye	definer_11|0 0 
+1|http://www.w3.org/2002/07/ear	definer_11|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_11|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/aeroplane	definer_14|0 0 
+3|definer_14	definer_13	http://www.w3.org/2002/07/wheel|0 0 0 
+1|http://www.w3.org/2002/07/body	definer_13|0 0 
+1|http://www.w3.org/2002/07/engine	definer_13|0 0 
+1|http://www.w3.org/2002/07/stern	definer_13|0 0 
+1|http://www.w3.org/2002/07/artifact_wing	definer_13|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bottle	definer_15|0 0 
+3|definer_15	http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/cap|0 0 0 
+1|http://www.w3.org/2002/07/train	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/pottedplant	definer_16|0 0 
+3|definer_16	http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/pot|0 0 0 
+1|http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/boat	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog	definer_18|0 0 
+3|definer_18	definer_17	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_17|0 0 
+1|http://www.w3.org/2002/07/head	definer_17|0 0 
+1|http://www.w3.org/2002/07/neck	definer_17|0 0 
+1|http://www.w3.org/2002/07/tail	definer_17|0 0 
+1|http://www.w3.org/2002/07/eye	definer_17|0 0 
+1|http://www.w3.org/2002/07/ear	definer_17|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_17|0 0 
+1|http://www.w3.org/2002/07/nose	definer_17|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person	definer_20|0 0 
+3|definer_20	definer_19	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/ebrow	definer_19|0 0 
+1|http://www.w3.org/2002/07/hair	definer_19|0 0 
+1|http://www.w3.org/2002/07/foot	definer_19|0 0 
+1|http://www.w3.org/2002/07/hand	definer_19|0 0 
+1|http://www.w3.org/2002/07/leg	definer_19|0 0 
+1|http://www.w3.org/2002/07/mouth	definer_19|0 0 
+1|http://www.w3.org/2002/07/arm	definer_19|0 0 
+1|http://www.w3.org/2002/07/head	definer_19|0 0 
+1|http://www.w3.org/2002/07/neck	definer_19|0 0 
+1|http://www.w3.org/2002/07/eye	definer_19|0 0 
+1|http://www.w3.org/2002/07/ear	definer_19|0 0 
+1|http://www.w3.org/2002/07/nose	definer_19|0 0 
+1|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/door	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse	definer_22|0 0 
+3|definer_22	definer_21	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_21|0 0 
+1|http://www.w3.org/2002/07/hoof	definer_21|0 0 
+1|http://www.w3.org/2002/07/head	definer_21|0 0 
+1|http://www.w3.org/2002/07/neck	definer_21|0 0 
+1|http://www.w3.org/2002/07/tail	definer_21|0 0 
+1|http://www.w3.org/2002/07/eye	definer_21|0 0 
+1|http://www.w3.org/2002/07/ear	definer_21|0 0 
+1|http://www.w3.org/2002/07/muzzle	definer_21|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/train	definer_24|0 0 
+3|definer_24	definer_23	http://www.w3.org/2002/07/locomotive|0 0 0 
+1|http://www.w3.org/2002/07/headlight	definer_23|0 0 
+1|http://www.w3.org/2002/07/coach	definer_23|0 0 
+1|http://www.w3.org/2002/07/locomotive	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/car	definer_26|0 0 
+3|definer_26	definer_25	http://www.w3.org/2002/07/window|0 0 0 
+1|http://www.w3.org/2002/07/mirror	definer_25|0 0 
+1|http://www.w3.org/2002/07/bodywork	definer_25|0 0 
+1|http://www.w3.org/2002/07/license_plate	definer_25|0 0 
+1|http://www.w3.org/2002/07/door	definer_25|0 0 
+1|http://www.w3.org/2002/07/wheel	definer_25|0 0 
+1|http://www.w3.org/2002/07/headlight	definer_25|0 0 
+1|http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/owl#Thing|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat	definer_28|0 0 
+3|definer_28	definer_27	http://www.w3.org/2002/07/torso|0 0 0 
+1|http://www.w3.org/2002/07/leg	definer_27|0 0 
+1|http://www.w3.org/2002/07/head	definer_27|0 0 
+1|http://www.w3.org/2002/07/neck	definer_27|0 0 
+1|http://www.w3.org/2002/07/tail	definer_27|0 0 
+1|http://www.w3.org/2002/07/eye	definer_27|0 0 
+1|http://www.w3.org/2002/07/ear	definer_27|0 0 
+1|http://www.w3.org/2002/07/cap	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/coach	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/chain_wheel	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bodywork	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/license_plate	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/stern	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/coach	http://www.w3.org/2002/07/train	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/cap	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/chain_wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/window	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/mirror	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bodywork	http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/license_plate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/motorbike	http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/locomotive	http://www.w3.org/2002/07/train	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/saddle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/motorbike	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/handlebar	http://www.w3.org/2002/07/motorbike	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/door	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/train	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/screen	http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/window	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/pot	http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/motorbike	http://www.w3.org/2002/07/saddle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/engine	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/door	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/mirror	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/headlight	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/wheel	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bus	http://www.w3.org/2002/07/license_plate	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bodywork	http://www.w3.org/2002/07/car	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/aeroplane	http://www.w3.org/2002/07/artifact_wing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/bicycle	http://www.w3.org/2002/07/handlebar	http://www.w3.org/2002/07/owl#Nothing|0 0 0 

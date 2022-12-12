@@ -1,0 +1,28 @@
+7|http://www.w3.org/2002/07/owl#has	http://www.w3.org/2002/07/owl#parent	http://www.w3.org/2002/07/owl#child|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#grass	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#teacher	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#screen	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/owl#human	http://www.w3.org/2002/07/owl#eat	http://www.w3.org/2002/07/owl#grass|0 0 
+1|http://www.w3.org/2002/07/owl#human	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#TV	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#class	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+5|http://www.w3.org/2002/07/owl#teacher	http://www.w3.org/2002/07/owl#teach	http://www.w3.org/2002/07/owl#class|0 0 
+1|http://www.w3.org/2002/07/owl#teacher	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#screen	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#child	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#child	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#parent	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+6|http://www.w3.org/2002/07/owl#isPartOf	http://www.w3.org/2002/07/owl#TV	http://www.w3.org/2002/07/owl#screen|0 0 
+1|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#TV	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/owl#grass	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#parent	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#class	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#human	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#child	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#grass	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#parent	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#human	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#class	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#teacher	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 

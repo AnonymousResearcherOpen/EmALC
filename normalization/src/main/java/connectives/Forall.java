@@ -13,10 +13,7 @@ import roles.AtomicRole;
 
 import java.util.Set;
 
-/**
- *
- * @author Yizheng
- */
+
 public class Forall extends ConceptExpression {
 
 	public Forall() {

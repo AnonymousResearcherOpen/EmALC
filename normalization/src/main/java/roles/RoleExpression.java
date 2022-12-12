@@ -9,10 +9,7 @@ import java.util.List;
 
 import formula.Formula;
 
-/**
- *
- * @author Yizheng
- */
+
 public class RoleExpression extends Formula {
 
 	public RoleExpression() {

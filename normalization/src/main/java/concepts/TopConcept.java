@@ -9,10 +9,7 @@ import java.util.*;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-/**
- *
- * @author Yizheng
- */
+
 public class TopConcept extends ConceptExpression {
 
 	private static final TopConcept TC = new TopConcept();

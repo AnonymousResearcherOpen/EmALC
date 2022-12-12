@@ -1,0 +1,1035 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/partOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/partOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/aeroplane -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/aeroplane">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/artifact_wing -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/artifact_wing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/bicycle -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/bicycle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/boat -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/boat">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/body -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/body">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/bodywork -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/bodywork">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/bus -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/bus">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/car -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/car">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/chain_wheel -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/chain_wheel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/coach -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/coach">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/door -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/door">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/engine -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/engine">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/handlebar -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/handlebar">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/headlight -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/headlight">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/license_plate -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/license_plate">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/locomotive -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/locomotive">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/train"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/mirror -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/mirror">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/motorbike -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/motorbike">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/saddle -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/saddle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/stern -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/stern">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/train -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/train">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/wheel -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/wheel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/aeroplane"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bicycle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/motorbike"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/window -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/window">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bus"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/car"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/aeroplane"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/artifact_wing"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/aeroplane"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/body"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/aeroplane"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/engine"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/aeroplane"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/stern"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/aeroplane"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bicycle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/chain_wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bicycle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/handlebar"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bicycle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/headlight"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bicycle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/saddle"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bicycle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bodywork"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bodywork"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/door"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/headlight"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/license_plate"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/mirror"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bus"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/window"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/door"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/headlight"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/license_plate"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/mirror"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/car"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/window"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/coach"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/train"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/handlebar"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/motorbike"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/headlight"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/motorbike"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/headlight"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/train"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/locomotive"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/train"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/motorbike"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/saddle"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/motorbike"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/wheel"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.3.2017-11-04T21:44:22Z) https://github.com/owlcs/owlapi/ -->
+
+

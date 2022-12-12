@@ -9,10 +9,6 @@ import roles.AtomicRole;
 import java.text.Normalizer;
 import java.util.*;
 
-/**
- *
- * @author Xuan Wu
- */
 public class Normalize {
     public DefinerIntroducer introducedDefiners;
     public Map<Formula, AtomicConcept> definer_left_map = new HashMap<>();

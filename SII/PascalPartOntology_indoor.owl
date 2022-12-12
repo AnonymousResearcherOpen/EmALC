@@ -127,41 +127,41 @@
      -->
 
 
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="bottle"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="body"/>
-                    <rdf:Description rdf:about="cap"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="pottedplant"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="plant"/>
-                    <rdf:Description rdf:about="pot"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="tvmonitor"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="screen"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="body"/>
+            <rdf:Description rdf:about="cap"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="bottle"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="plant"/>
+            <rdf:Description rdf:about="pot"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="pottedplant"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="screen"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="tvmonitor"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
 </rdf:RDF>
 
 

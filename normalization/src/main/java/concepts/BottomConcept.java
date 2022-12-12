@@ -7,10 +7,7 @@ package concepts;
 
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-/**
- *
- * @author Yizheng
- */
+
 public class BottomConcept extends ConceptExpression {
 
 	private static final BottomConcept BC = new BottomConcept();

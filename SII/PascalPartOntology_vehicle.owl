@@ -288,97 +288,97 @@
      -->
 
 
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="aeroplane"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="artifact_wing"/>
-                    <rdf:Description rdf:about="body"/>
-                    <rdf:Description rdf:about="engine"/>
-                    <rdf:Description rdf:about="stern"/>
-                    <rdf:Description rdf:about="wheel"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="bicycle"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="chain_wheel"/>
-                    <rdf:Description rdf:about="handlebar"/>
-                    <rdf:Description rdf:about="headlight"/>
-                    <rdf:Description rdf:about="saddle"/>
-                    <rdf:Description rdf:about="wheel"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="bus"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="bodywork"/>
-                    <rdf:Description rdf:about="door"/>
-                    <rdf:Description rdf:about="headlight"/>
-                    <rdf:Description rdf:about="license_plate"/>
-                    <rdf:Description rdf:about="mirror"/>
-                    <rdf:Description rdf:about="wheel"/>
-                    <rdf:Description rdf:about="window"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="car"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="bodywork"/>
-                    <rdf:Description rdf:about="door"/>
-                    <rdf:Description rdf:about="headlight"/>
-                    <rdf:Description rdf:about="license_plate"/>
-                    <rdf:Description rdf:about="mirror"/>
-                    <rdf:Description rdf:about="wheel"/>
-                    <rdf:Description rdf:about="window"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="motorbike"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="handlebar"/>
-                    <rdf:Description rdf:about="headlight"/>
-                    <rdf:Description rdf:about="saddle"/>
-                    <rdf:Description rdf:about="wheel"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
-    <Restriction>
-        <onProperty rdf:resource="partOf"/>
-        <someValuesFrom rdf:resource="train"/>
-        <rdfs:subClassOf>
-            <Class>
-                <unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="coach"/>
-                    <rdf:Description rdf:about="headlight"/>
-                    <rdf:Description rdf:about="locomotive"/>
-                </unionOf>
-            </Class>
-        </rdfs:subClassOf>
-    </Restriction>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="artifact_wing"/>
+            <rdf:Description rdf:about="body"/>
+            <rdf:Description rdf:about="engine"/>
+            <rdf:Description rdf:about="stern"/>
+            <rdf:Description rdf:about="wheel"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="aeroplane"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="bodywork"/>
+            <rdf:Description rdf:about="door"/>
+            <rdf:Description rdf:about="headlight"/>
+            <rdf:Description rdf:about="license_plate"/>
+            <rdf:Description rdf:about="mirror"/>
+            <rdf:Description rdf:about="wheel"/>
+            <rdf:Description rdf:about="window"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="bus"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="bodywork"/>
+            <rdf:Description rdf:about="door"/>
+            <rdf:Description rdf:about="headlight"/>
+            <rdf:Description rdf:about="license_plate"/>
+            <rdf:Description rdf:about="mirror"/>
+            <rdf:Description rdf:about="wheel"/>
+            <rdf:Description rdf:about="window"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="car"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="chain_wheel"/>
+            <rdf:Description rdf:about="handlebar"/>
+            <rdf:Description rdf:about="headlight"/>
+            <rdf:Description rdf:about="saddle"/>
+            <rdf:Description rdf:about="wheel"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="bicycle"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="coach"/>
+            <rdf:Description rdf:about="headlight"/>
+            <rdf:Description rdf:about="locomotive"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="train"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="handlebar"/>
+            <rdf:Description rdf:about="headlight"/>
+            <rdf:Description rdf:about="saddle"/>
+            <rdf:Description rdf:about="wheel"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <someValuesFrom rdf:resource="motorbike"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
 </rdf:RDF>
 
 

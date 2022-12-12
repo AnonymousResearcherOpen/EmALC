@@ -1,0 +1,21 @@
+1|http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/screen	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/cap	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/pot	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/owl#Thing|0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/screen|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/screen|0 0 
+2|http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/cap	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/screen	http://www.w3.org/2002/07/tvmonitor	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/pot	http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/pottedplant	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/bottle	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/pottedplant	definer_1|0 0 
+3|definer_1	http://www.w3.org/2002/07/plant	http://www.w3.org/2002/07/pot|0 0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/pottedplant	definer_1|0 0 
+6|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bottle	definer_2|0 0 
+3|definer_2	http://www.w3.org/2002/07/body	http://www.w3.org/2002/07/cap|0 0 0 
+7|http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bottle	definer_2|0 0 

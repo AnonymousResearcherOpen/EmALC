@@ -14,10 +14,7 @@ import concepts.AtomicConcept;
 import formula.Formula;
 import roles.AtomicRole;
 
-/**
- *
- * @author Yizheng
- */
+
 public class Inclusion extends Formula {
 
 	public Inclusion() {

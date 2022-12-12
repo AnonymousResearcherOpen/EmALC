@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/partOf -->
+
+
+    <ObjectProperty rdf:about="http://www.w3.org/2002/07/partOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- definer_1 -->
+
+
+    <Class rdf:about="definer_1">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- definer_2 -->
+
+
+    <Class rdf:about="definer_2">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- definer_3 -->
+
+
+    <Class rdf:about="definer_3">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- definer_4 -->
+
+
+    <Class rdf:about="definer_4">
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/body -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/body">
+        <rdfs:subClassOf rdf:resource="definer_3"/>
+        <rdfs:subClassOf rdf:resource="definer_4"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/bottle -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/bottle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/cap -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/cap">
+        <rdfs:subClassOf rdf:resource="definer_3"/>
+        <rdfs:subClassOf rdf:resource="definer_4"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/plant -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/plant">
+        <rdfs:subClassOf rdf:resource="definer_1"/>
+        <rdfs:subClassOf rdf:resource="definer_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/pot -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/pot">
+        <rdfs:subClassOf rdf:resource="definer_1"/>
+        <rdfs:subClassOf rdf:resource="definer_2"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/pottedplant -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/pottedplant">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/screen -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/screen">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <someValuesFrom rdf:resource="http://www.w3.org/2002/07/tvmonitor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+                <allValuesFrom rdf:resource="http://www.w3.org/2002/07/tvmonitor"/>
+            </Restriction>
+        </rdfs:subClassOf>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/tvmonitor -->
+
+
+    <Class rdf:about="http://www.w3.org/2002/07/tvmonitor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/body"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bottle"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/bottle"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/cap"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/plant"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/pottedplant"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/pot"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/pottedplant"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Class>
+        <intersectionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/screen"/>
+            <rdf:Description rdf:about="http://www.w3.org/2002/07/tvmonitor"/>
+        </intersectionOf>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Nothing"/>
+    </Class>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+        <rdfs:subClassOf rdf:resource="definer_3"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+        <rdfs:subClassOf rdf:resource="definer_1"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <someValuesFrom rdf:resource="http://www.w3.org/2002/07/tvmonitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/screen"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+        <rdfs:subClassOf rdf:resource="definer_3"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <allValuesFrom rdf:resource="http://www.w3.org/2002/07/bottle"/>
+        <rdfs:subClassOf rdf:resource="definer_4"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+        <rdfs:subClassOf rdf:resource="definer_1"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <allValuesFrom rdf:resource="http://www.w3.org/2002/07/pottedplant"/>
+        <rdfs:subClassOf rdf:resource="definer_2"/>
+    </Restriction>
+    <Restriction>
+        <onProperty rdf:resource="http://www.w3.org/2002/07/partOf"/>
+        <allValuesFrom rdf:resource="http://www.w3.org/2002/07/tvmonitor"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/screen"/>
+    </Restriction>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.3.2017-11-04T21:44:22Z) https://github.com/owlcs/owlapi/ -->
+
+

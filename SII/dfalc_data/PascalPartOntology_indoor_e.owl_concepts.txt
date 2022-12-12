@@ -1,0 +1,14 @@
+http://www.w3.org/2002/07/screen
+http://www.w3.org/2002/07/tvmonitor
+http://www.w3.org/2002/07/plant
+http://www.w3.org/2002/07/pottedplant
+http://www.w3.org/2002/07/owl#Thing
+definer_1
+definer_2
+http://www.w3.org/2002/07/bottle
+definer_3
+definer_4
+http://www.w3.org/2002/07/cap
+http://www.w3.org/2002/07/pot
+http://www.w3.org/2002/07/owl#Nothing
+http://www.w3.org/2002/07/body

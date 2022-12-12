@@ -6,9 +6,7 @@ import java.util.*;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.semanticweb.owlapi.model.OWLClass;
 
-/**
- * @author Yizheng
- */
+
 
 public class AtomicConcept extends ConceptExpression implements Comparable<AtomicConcept> {
 

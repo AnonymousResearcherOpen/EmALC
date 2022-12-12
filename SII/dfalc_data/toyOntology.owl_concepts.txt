@@ -1,0 +1,10 @@
+http://www.w3.org/2002/07/owl#TV
+http://www.w3.org/2002/07/owl#child
+http://www.w3.org/2002/07/owl#grass
+http://www.w3.org/2002/07/owl#class
+http://www.w3.org/2002/07/owl#Nothing
+http://www.w3.org/2002/07/owl#screen
+http://www.w3.org/2002/07/owl#Thing
+http://www.w3.org/2002/07/owl#human
+http://www.w3.org/2002/07/owl#parent
+http://www.w3.org/2002/07/owl#teacher

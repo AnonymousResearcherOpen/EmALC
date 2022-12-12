@@ -1,0 +1,4 @@
+http://www.w3.org/2002/07/owl#isPartOf
+http://www.w3.org/2002/07/owl#has
+http://www.w3.org/2002/07/owl#teach
+http://www.w3.org/2002/07/owl#eat
