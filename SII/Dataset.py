@@ -84,47 +84,47 @@ class OntologyDataset(Dataset):
 
     @staticmethod
     def load_entities(concepts_path, roles_path, individuals_path, save_path):
-        if os.path.exists(save_path+".c2id.pkl"):
-            concept2id = pickle.load(open(save_path+".c2id.pkl","rb"))
-            role2id = pickle.load(open(save_path+".r2id.pkl","rb"))
-            individual2id = pickle.load(open(save_path+".i2id.pkl","rb"))
-            return concept2id, role2id, individual2id, list(concept2id.keys()), list(role2id.keys()), list(individual2id.keys())
-        else:
-            concepts = list(open(concepts_path,"r",encoding="utf-8").read().splitlines())
-            roles = list(open(roles_path,"r",encoding="utf-8").read().splitlines())
-            individuals = list(open(individuals_path,"r",encoding="utf-8").read().splitlines())
-            concept2id = {}
+        # if os.path.exists(save_path+".c2id.pkl"):
+        #     concept2id = pickle.load(open(save_path+".c2id.pkl","rb"))
+        #     role2id = pickle.load(open(save_path+".r2id.pkl","rb"))
+        #     individual2id = pickle.load(open(save_path+".i2id.pkl","rb"))
+        #     return concept2id, role2id, individual2id, list(concept2id.keys()), list(role2id.keys()), list(individual2id.keys())
+        # else:
+        concepts = list(open(concepts_path,"r",encoding="utf-8").read().splitlines())
+        roles = list(open(roles_path,"r",encoding="utf-8").read().splitlines())
+        individuals = list(open(individuals_path,"r",encoding="utf-8").read().splitlines())
+        concept2id = {}
             
-            if "http://www.w3.org/2002/07/owl#Thing" in concepts:
-                concepts.remove("http://www.w3.org/2002/07/owl#Thing")
-            if "http://www.w3.org/2002/07/owl#Nothing" in concepts:
-                concepts.remove("http://www.w3.org/2002/07/owl#Nothing")
-            if "owl:Thing" in concepts:
-                concepts.remove("owl:Thing")
-            if "owl:Nothing" in concepts:
-                concepts.remove("owl:Nothing")
-            
-            concepts = list(concepts)
+        if "http://www.w3.org/2002/07/owl#Thing" in concepts:
+            concepts.remove("http://www.w3.org/2002/07/owl#Thing")
+        if "http://www.w3.org/2002/07/owl#Nothing" in concepts:
+            concepts.remove("http://www.w3.org/2002/07/owl#Nothing")
+        if "owl:Thing" in concepts:
+            concepts.remove("owl:Thing")
+        if "owl:Nothing" in concepts:
+            concepts.remove("owl:Nothing")
         
-            roles = list(roles)
+        concepts = list(concepts)
+    
+        roles = list(roles)
 
-            for i,c in enumerate(concepts):
-                concept2id[c] = i
-            concept2id["owl:Nothing"] = len(concepts)
-            concept2id["http://www.w3.org/2002/07/owl#Nothing"] = len(concepts)
-            concept2id["owl:Thing"] = len(concepts)+1
-            concept2id["http://www.w3.org/2002/07/owl#Thing"] = len(concepts)+1
-            
-            concepts.append("http://www.w3.org/2002/07/owl#Nothing")
-            concepts.append("http://www.w3.org/2002/07/owl#Thing")
-            
-            concepts.append("owl:Nothing")
-            concepts.append("owl:Thing")
-            
-            role2id = {r:i for i,r in enumerate(roles)}
-            individual2id = {r:i for i,r in enumerate(individuals)}
-            
-            pickle.dump(concept2id,open(save_path+".c2id.pkl","wb"))
-            pickle.dump(role2id,open(save_path+".r2id.pkl","wb"))
-            pickle.dump(individual2id,open(save_path+".i2id.pkl","wb"))
-            return concept2id, role2id, individual2id, concepts, roles, individuals
+        for i,c in enumerate(concepts):
+            concept2id[c] = i
+        concept2id["owl:Nothing"] = len(concepts)
+        concept2id["http://www.w3.org/2002/07/owl#Nothing"] = len(concepts)
+        concept2id["owl:Thing"] = len(concepts)+1
+        concept2id["http://www.w3.org/2002/07/owl#Thing"] = len(concepts)+1
+        
+        concepts.append("http://www.w3.org/2002/07/owl#Nothing")
+        concepts.append("http://www.w3.org/2002/07/owl#Thing")
+        
+        concepts.append("owl:Nothing")
+        concepts.append("owl:Thing")
+        
+        role2id = {r:i for i,r in enumerate(roles)}
+        individual2id = {r:i for i,r in enumerate(individuals)}
+        
+        pickle.dump(concept2id,open(save_path+".c2id.pkl","wb"))
+        pickle.dump(role2id,open(save_path+".r2id.pkl","wb"))
+        pickle.dump(individual2id,open(save_path+".i2id.pkl","wb"))
+        return concept2id, role2id, individual2id, concepts, roles, individuals
