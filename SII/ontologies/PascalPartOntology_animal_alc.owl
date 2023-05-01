@@ -368,6 +368,24 @@
     </Class>
     <Class>
         <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="animal_wing"/>
+            <rdf:Description rdf:about="beak"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="bird"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="arm"/>
             <rdf:Description rdf:about="ear"/>
             <rdf:Description rdf:about="ebrow"/>
@@ -391,6 +409,29 @@
     </Class>
     <Class>
         <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="arm"/>
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="ebrow"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="foot"/>
+            <rdf:Description rdf:about="hair"/>
+            <rdf:Description rdf:about="hand"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="mouth"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="nose"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="person"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="ear"/>
             <rdf:Description rdf:about="eye"/>
             <rdf:Description rdf:about="head"/>
@@ -405,6 +446,25 @@
             <Restriction>
                 <onProperty rdf:resource="partOf"/>
                 <someValuesFrom rdf:resource="horse"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="hoof"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="muzzle"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="horse"/>
             </Restriction>
         </equivalentClass>
     </Class>
@@ -451,6 +511,44 @@
             <rdf:Description rdf:about="ear"/>
             <rdf:Description rdf:about="eye"/>
             <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="horn"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="muzzle"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="cow"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="horn"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="muzzle"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="sheep"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
             <rdf:Description rdf:about="leg"/>
             <rdf:Description rdf:about="muzzle"/>
             <rdf:Description rdf:about="neck"/>
@@ -471,6 +569,25 @@
             <rdf:Description rdf:about="eye"/>
             <rdf:Description rdf:about="head"/>
             <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="muzzle"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="nose"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="dog"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="leg"/>
             <rdf:Description rdf:about="neck"/>
             <rdf:Description rdf:about="tail"/>
             <rdf:Description rdf:about="torso"/>
@@ -479,6 +596,23 @@
             <Restriction>
                 <onProperty rdf:resource="partOf"/>
                 <someValuesFrom rdf:resource="cat"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="ear"/>
+            <rdf:Description rdf:about="eye"/>
+            <rdf:Description rdf:about="head"/>
+            <rdf:Description rdf:about="leg"/>
+            <rdf:Description rdf:about="neck"/>
+            <rdf:Description rdf:about="tail"/>
+            <rdf:Description rdf:about="torso"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="cat"/>
             </Restriction>
         </equivalentClass>
     </Class>

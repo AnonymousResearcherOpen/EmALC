@@ -38,7 +38,7 @@ For comparison with the Logical Tensor Network, run:
     python .\run.py --info_path input --out_path output --save_path output --iter_path ontologies --mask_rate 0.2 --alpha 0.8 --device_name cpu --model_name LTN
 
 
-### Evaluation
+### Performance Evaluation
 
 The revised results of DF-ALC and LTN are evaluated under the semantics of fuzzy first-order logic, with codes in [training/evaluation](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/). To compute the successful rate, run [run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/evaluation/run.ipynb)
 
@@ -48,6 +48,10 @@ generate the conjunctive queries and answers:
     java -jar CQGenerator.jar training/ontologies training/input
 
 Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/CQAnswering_evaluation.ipynb) to generate the CQA evaluation results.
+
+### Application: Semantic Image Interpretation
+ALC ontologies and EL ontologies are saved in [SII/ontologies](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/SII/ontologies).
+Run evaluation with DF-ALC on notebook [SII_code/dfalc_run.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/SII/SII_code/dfalc_run.ipynb). Run evaluation with LTN on notebook [SII_code/run_ltn.ipynb](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/SII/SII_code/run_ltn.ipynb). 
 
 ## Dependencies
 
@@ -61,7 +65,7 @@ Then run [CQAnswering_evaluation.ipynb](https://github.com/AnonymousResearcherOp
     pandas 1.1.3
     pyparsing 3.0.6
     loguru 0.6.0
-## Results
+## Performance Evaluation Results
 
 Results of DF-ALC and LTN are output in [output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/output/), [product_output](https://github.com/AnonymousResearcherOpen/DF-ALC/tree/main/training/product_output/), respectively. We zipped the training results in [results](https://drive.google.com/drive/folders/1ob0RVM6GwAQvgew9yZTrCfNrfvbWFKRb?usp=sharing).
 

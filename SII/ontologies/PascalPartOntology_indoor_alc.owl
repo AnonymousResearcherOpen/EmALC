@@ -141,6 +141,18 @@
     </Class>
     <Class>
         <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="body"/>
+            <rdf:Description rdf:about="cap"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="bottle"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="plant"/>
             <rdf:Description rdf:about="pot"/>
         </unionOf>
@@ -153,12 +165,35 @@
     </Class>
     <Class>
         <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="plant"/>
+            <rdf:Description rdf:about="pot"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="pottedplant"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
             <rdf:Description rdf:about="screen"/>
         </unionOf>
         <equivalentClass>
             <Restriction>
                 <onProperty rdf:resource="partOf"/>
                 <someValuesFrom rdf:resource="tvmonitor"/>
+            </Restriction>
+        </equivalentClass>
+    </Class>
+    <Class>
+        <unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="screen"/>
+        </unionOf>
+        <equivalentClass>
+            <Restriction>
+                <onProperty rdf:resource="partOf"/>
+                <allValuesFrom rdf:resource="tvmonitor"/>
             </Restriction>
         </equivalentClass>
     </Class>

@@ -1,0 +1,120 @@
+2|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+1|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+1|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+4|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+1|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+1|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+2|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+2|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+2|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+1|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+4|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+4|http://www.w3.org/2002/07/hair	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+1|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+1|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/cat	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/hoof	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+4|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+2|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+1|http://www.w3.org/2002/07/horse	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+2|http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+1|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+2|http://www.w3.org/2002/07/dog	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+2|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+2|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+1|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 
+2|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+1|http://www.w3.org/2002/07/torso	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+2|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+1|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+2|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/ear	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+4|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+1|http://www.w3.org/2002/07/nose	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/bird	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/dog|0 0 
+4|http://www.w3.org/2002/07/tail	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/bird|0 0 
+4|http://www.w3.org/2002/07/head	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+4|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+2|http://www.w3.org/2002/07/horn	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/hand	http://www.w3.org/2002/07/owl#Thing|0 0 
+1|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/owl#Thing|0 0 
+2|http://www.w3.org/2002/07/arm	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/animal_wing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cow|0 0 
+4|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+2|http://www.w3.org/2002/07/person	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+1|http://www.w3.org/2002/07/cow	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/neck	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+1|http://www.w3.org/2002/07/mouth	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/cat|0 0 
+2|http://www.w3.org/2002/07/ebrow	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/foot	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/person|0 0 
+2|http://www.w3.org/2002/07/eye	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+4|http://www.w3.org/2002/07/leg	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/sheep|0 0 
+1|http://www.w3.org/2002/07/beak	http://www.w3.org/2002/07/owl#Thing|0 0 
+4|http://www.w3.org/2002/07/muzzle	http://www.w3.org/2002/07/partOf	http://www.w3.org/2002/07/horse|0 0 
+2|http://www.w3.org/2002/07/owl#Thing	http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
+2|http://www.w3.org/2002/07/owl#Nothing	http://www.w3.org/2002/07/sheep	http://www.w3.org/2002/07/owl#Nothing|0 0 0 
